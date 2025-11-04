@@ -23,7 +23,7 @@ Outil	Description	Lien de téléchargement
 
 🧰 Git	Pour cloner ce projet	https://git-scm.com/downloads
 
-📱 Expo Go	Pour tester l’app mobile	Android
+📱 Expo Go	Pour tester l’app mobile télécharger dans playstore
 📥 Étape 1 — Cloner le projet
 
 Ouvrez un terminal et exécutez :
