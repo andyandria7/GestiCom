@@ -24,6 +24,7 @@ Outil	Description	Lien de téléchargement
 🧰 Git	Pour cloner ce projet	https://git-scm.com/downloads
 
 📱 Expo Go	Pour tester l’app mobile télécharger dans playstore
+
 📥 Étape 1 — Cloner le projet
 
 Ouvrez un terminal et exécutez :
@@ -44,7 +45,7 @@ Ce dossier contient l’API principale.
 
 Installation
 
-Placez back_end dans le répertoire www de WAMP :
+Placez backend dans le répertoire www de WAMP :
 
 C:\wamp64\www\
 
