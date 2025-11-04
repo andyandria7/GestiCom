@@ -34,7 +34,7 @@ cd GestiCom
 
 Vous aurez maintenant les trois dossiers :
 
-back_end/
+backend/
 admin_frontend/
 invest/
 
@@ -46,21 +46,23 @@ Installation
 
 Placez back_end dans le répertoire www de WAMP :
 
-C:\wamp64\www\back_end
+C:\wamp64\www\
 
 
 Installez les dépendances PHP :
-
-cd back_end
+    Ouvrez le terminal du fichier (CMD)
+C:\wamp64\www\back_end
+   et tapez :
 composer install
 
 
 Créez la base de données MySQL :
 
-Ouvrez phpMyAdmin : http://localhost/phpmyadmin
+Dnas votre navigateur ouvrez tapez : http://localhost/phpmyadmin
 
-Créez une base nommée : gesticom
+Créez une base nommée : invest
 
+Dans votre projet backend
 Configurez le fichier .env :
 
 Dupliquez .env.example → renommez en .env
@@ -68,14 +70,14 @@ Dupliquez .env.example → renommez en .env
 Modifiez les lignes suivantes :
 
 database.default.hostname = localhost
-database.default.database = gesticom
+database.default.database = invest
 database.default.username = root
 database.default.password =
 database.default.DBDriver = MySQLi
 app.baseURL = 'http://localhost:8080/'
 
 
-Lancez le serveur CodeIgniter :
+Lancez le serveur CodeIgniter dans le terminal (CMD) du backend:
 
 php spark serve --host 0.0.0.0 --port 8080
 
@@ -86,37 +88,27 @@ L’API sera disponible sur :
 Déploiement local avec IP
 
 Pour que le web et le mobile communiquent avec le backend :
-
-Trouvez votre adresse IPv4 locale :
+Ouvrez une nouvelle terminal (CMD) et tapez :
 
 ipconfig
-
+et trouvez votre adresse IPv4 locale
 
 Copiez la ligne Adresse IPv4 (exemple : 192.168.1.15)
 
-Mettez cette IP dans :
+Mettez cette IP dans les fichiers suivants :
+Fichier mobile (invest/constants/apiConfig.ts) ouvrire dans block note
 
-invest/constants/apiConfig.ts
-
-const ngrok = "http://192.168.1.15:8080";
+const ngrok = "http://192.168.1.15:8080"; <- Remplacez par votre Adresse IPv4 que vouz avez copié
 const API_BASE_URL: string = ngrok;
 export default API_BASE_URL;
 
+puis dans
+Fichier Web (admin_frontend/src/services/api.js)
 
-admin_frontend/services/api.js
-
-const BASE_URL = "http://192.168.1.15:8080/";
+const BASE_URL = "http://192.168.1.15:8080/"; <- Remplacez par votre Adresse IPv4 que vouz avez copié
 
 🌐 Étape 3 — Web (ReactJS) — dossier admin_frontend
-Installation
-
-Allez dans le dossier :
-
-cd admin_frontend
-
-
-Installez les dépendances :
-
+Ouvrez le terminal du fichier (CMD) dans admin_frontend
 npm install
 
 
@@ -131,21 +123,13 @@ L’application sera accessible sur :
 👉 http://localhost:5173
 
 📱 Étape 4 — Mobile (React Native + Expo) — dossier invest
-Installation
-
-Allez dans le dossier :
-
-cd invest
-
-
-Installez les dépendances :
-
+Ouvrez le terminal du fichier (CMD) dans invest
 npm install
 
 
 Configurez l’IP du backend comme indiqué ci-dessus.
 
-Démarrez Expo :
+Démarrez Expo tapez dans le terminal (CMD):
 
 npx expo start
 
@@ -158,17 +142,17 @@ Assurez-vous que le PC et le téléphone sont sur le même réseau Wi-Fi.
 
 Vérifiez que les 3 serveurs (backend, web, mobile) tournent.
 
-Si le mobile ne se connecte pas, assurez-vous que :
+Si le mobile ne se connecte pas :
 
-L’adresse IP est correcte dans apiConfig.ts et api.js.
+Vérifiez que l’IP est correcte dans apiConfig.ts et api.js
 
-Le backend est lancé (php spark serve).
+Vérifiez que le backend est lancé (php spark serve)
 
-Le téléphone et le PC sont sur le même réseau.
+Assurez-vous que le téléphone et le PC sont sur le même réseau
 
 📚 Liens rapides vers les README des sous-projets
 Projet	Dossier	Lien
-Backend	back_end	back_end/README.md
+Backend	backend	back_end/README.md
 
 Web	admin_frontend	admin_frontend/README.md
 
