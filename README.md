@@ -1,211 +1,181 @@
-# 🧩 Backend - GestiCom (CodeIgniter 4)
+🏢 GestiCom
 
-Ce dossier contient la partie **serveur (API)** du projet GestiCom, développée avec **CodeIgniter 4** et **MySQL**.  
-Il sert de point central de communication pour les applications web et mobile.
+GestiCom est une solution complète de gestion commerciale composée de trois applications :
 
----
+🧩 Backend (CodeIgniter 4 + MySQL) — dossier back_end
 
-## ⚙️ Prérequis
+💻 Interface Web (ReactJS) — dossier admin_frontend
 
-Avant de commencer, installez les outils suivants :
+📱 Application Mobile (React Native + Expo) — dossier invest
 
-- [WAMP Server](https://www.wampserver.com/)
-- [Composer](https://getcomposer.org/download/)
-- [Git](https://git-scm.com/downloads)
-- [Node.js](https://nodejs.org/en/download/) *(nécessaire pour les projets web et mobile plus tard)*
+Toutes les applications communiquent entre elles via le backend et peuvent fonctionner sur un réseau local.
 
----
+⚙️ Prérequis
 
-## 📥 Installation
+Avant d’installer le projet, téléchargez et installez ces outils :
 
-1. **Clonez le projet depuis GitHub** :
-   ```bash
-   git clone https://github.com/andyandria7/GestiCom.git
-Placez le dossier dans le répertoire www de WAMP :
+Outil	Description	Lien de téléchargement
+🧱 WAMP Server	Serveur local (Apache + MySQL + PHP)	https://www.wampserver.com/
 
-makefile
-Copier le code
-C:\wamp64\www\backend-gestiCom
+🐘 Composer	Gestionnaire de dépendances PHP	https://getcomposer.org/download/
+
+💻 Node.js	Pour ReactJS et Expo	https://nodejs.org/en/download/
+
+🧰 Git	Pour cloner ce projet	https://git-scm.com/downloads
+
+📱 Expo Go	Pour tester l’app mobile	Android
+📥 Étape 1 — Cloner le projet
+
+Ouvrez un terminal et exécutez :
+
+git clone https://github.com/andyandria7/GestiCom.git
+cd GestiCom
+
+
+Vous aurez maintenant les trois dossiers :
+
+back_end/
+admin_frontend/
+invest/
+
+🧩 Étape 2 — Backend (CodeIgniter 4 + MySQL)
+
+Ce dossier contient l’API principale.
+
+Installation
+
+Placez back_end dans le répertoire www de WAMP :
+
+C:\wamp64\www\back_end
+
+
 Installez les dépendances PHP :
 
-bash
-Copier le code
-cd backend-gestiCom
+cd back_end
 composer install
+
+
 Créez la base de données MySQL :
 
-Ouvrez phpMyAdmin via http://localhost/phpmyadmin
+Ouvrez phpMyAdmin : http://localhost/phpmyadmin
 
 Créez une base nommée : gesticom
 
 Configurez le fichier .env :
-Dupliquez le fichier .env.example et renommez-le .env.
+
+Dupliquez .env.example → renommez en .env
 
 Modifiez les lignes suivantes :
 
-ini
-Copier le code
 database.default.hostname = localhost
 database.default.database = gesticom
 database.default.username = root
 database.default.password =
 database.default.DBDriver = MySQLi
 app.baseURL = 'http://localhost:8080/'
+
+
 Lancez le serveur CodeIgniter :
 
-bash
-Copier le code
 php spark serve --host 0.0.0.0 --port 8080
+
+
 L’API sera disponible sur :
 👉 http://localhost:8080
 
-🧩 Déploiement local avec IP
-Pour que les applications web et mobile puissent communiquer avec ce backend :
+Déploiement local avec IP
+
+Pour que le web et le mobile communiquent avec le backend :
 
 Trouvez votre adresse IPv4 locale :
 
-Ouvrez l’invite de commande Windows
-
-Tapez : ipconfig
-
-Copiez la ligne Adresse IPv4, exemple : 192.168.1.15
-
-Utilisez cette IP dans les projets :
-
-mobile-gestiCom/constants/apiConfig.ts
-
-web-gestiCom/services/api.js
-
-🚀 Lancer le backend
-bash
-Copier le code
-php spark serve --host 0.0.0.0 --port 8080
-L’API est maintenant prête à être utilisée par les deux interfaces (web et mobile).
-
-yaml
-Copier le code
-
----
-
-## 🌐 README #2 — web-gestiCom (ReactJS)
-
-```markdown
-# 💻 Web - GestiCom (ReactJS)
-
-Ce dossier contient la version **web** de l’application GestiCom, développée avec **ReactJS**.
-
----
-
-## ⚙️ Prérequis
-
-Installez les outils suivants avant de commencer :
-
-- [Node.js](https://nodejs.org/en/download/)
-- [Git](https://git-scm.com/downloads)
-- Avoir le **backend** (CodeIgniter 4) en cours d’exécution
-
----
-
-## 📥 Installation
-
-   cd web-gestiCom
-Installez les dépendances :
-
-bash
-Copier le code
-npm install
-Mettez à jour l’adresse IP du backend :
-
-Ouvrez le fichier :
-
-bash
-Copier le code
-src/services/api.js
-Modifiez la ligne suivante :
-
-js
-Copier le code
-const BASE_URL = "http://192.168.1.15:8080/";
-(remplacez 192.168.1.15 par votre IPv4 locale)
-
-Démarrez le serveur web :
-
-bash
-Copier le code
-npm run dev
-L’application sera accessible à l’adresse :
-👉 http://localhost:5173
-
-🚀 Utilisation
-Le site web se connecte automatiquement au backend via l’adresse IP configurée.
-
-Vous pouvez naviguer, créer, modifier ou supprimer des données selon les fonctionnalités disponibles.
-
-yaml
-Copier le code
-
----
-
-## 📱 README #3 — mobile-gestiCom (React Native + Expo)
-
-```markdown
-# 📱 Mobile - GestiCom (React Native + Expo)
-
-Ce dossier contient la version **mobile** de GestiCom, développée avec **React Native** via **Expo**.
-
----
-
-## ⚙️ Prérequis
-
-Avant de lancer l’application, installez :
-
-- [Node.js](https://nodejs.org/en/download/)
-- [Expo Go](https://play.google.com/store/apps/details?id=host.exp.exponent) *(sur votre téléphone Android)*
-- [Git](https://git-scm.com/downloads)
-- Le **backend (CodeIgniter)** doit être lancé et accessible sur le réseau local
-
----
-
-## 📥 Installation
+ipconfig
 
 
-   cd mobile-gestiCom
-Installez les dépendances :
+Copiez la ligne Adresse IPv4 (exemple : 192.168.1.15)
 
-bash
-Copier le code
-npm install
-Configurez l’adresse IP du backend :
-Ouvrez le fichier :
+Mettez cette IP dans :
 
-bash
-Copier le code
-constants/apiConfig.ts
-Et modifiez :
+invest/constants/apiConfig.ts
 
-ts
-Copier le code
 const ngrok = "http://192.168.1.15:8080";
 const API_BASE_URL: string = ngrok;
 export default API_BASE_URL;
-(Remplacez 192.168.1.15 par votre IPv4 locale)
 
-🚀 Démarrer le projet mobile
-Lancez Expo :
 
-bash
-Copier le code
+admin_frontend/services/api.js
+
+const BASE_URL = "http://192.168.1.15:8080/";
+
+🌐 Étape 3 — Web (ReactJS) — dossier admin_frontend
+Installation
+
+Allez dans le dossier :
+
+cd admin_frontend
+
+
+Installez les dépendances :
+
+npm install
+
+
+Configurez l’IP du backend comme indiqué ci-dessus.
+
+Démarrez le serveur web :
+
+npm run dev
+
+
+L’application sera accessible sur :
+👉 http://localhost:5173
+
+📱 Étape 4 — Mobile (React Native + Expo) — dossier invest
+Installation
+
+Allez dans le dossier :
+
+cd invest
+
+
+Installez les dépendances :
+
+npm install
+
+
+Configurez l’IP du backend comme indiqué ci-dessus.
+
+Démarrez Expo :
+
 npx expo start
+
+
 Scannez le QR code avec l’application Expo Go sur votre téléphone.
 
-L’application se connectera automatiquement au backend via l’adresse IP configurée.
+Assurez-vous que le PC et le téléphone sont sur le même réseau Wi-Fi.
 
-🧩 Dépannage
-Si l’application ne se connecte pas :
+🧠 Conseils pour les débutants
 
-Assurez-vous que votre PC et votre téléphone sont sur le même Wi-Fi.
+Vérifiez que les 3 serveurs (backend, web, mobile) tournent.
 
-Vérifiez que le serveur CodeIgniter est lancé (php spark serve --port 8080).
+Si le mobile ne se connecte pas, assurez-vous que :
 
-Vérifiez l’adresse IPv4 utilisée dans les fichiers apiConfig.ts et api.js.
+L’adresse IP est correcte dans apiConfig.ts et api.js.
 
+Le backend est lancé (php spark serve).
+
+Le téléphone et le PC sont sur le même réseau.
+
+📚 Liens rapides vers les README des sous-projets
+Projet	Dossier	Lien
+Backend	back_end	back_end/README.md
+
+Web	admin_frontend	admin_frontend/README.md
+
+Mobile	invest	invest/README.md
+✨ Auteur
+
+Projet GestiCom
+Développé par @andyandria7
+
+Technologies : CodeIgniter 4 · ReactJS · React Native (Expo) · MySQL
