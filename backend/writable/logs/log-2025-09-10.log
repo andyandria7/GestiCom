@@ -1,0 +1,750 @@
+WARNING - 2025-09-10 10:19:09 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$user_id is deprecated in APPPATH\Filters\JwtAuth.php on line 36.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/wallets/show', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-09-10 10:19:09 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$decoded_token is deprecated in APPPATH\Filters\JwtAuth.php on line 37.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/wallets/show', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-09-10 10:32:08 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$user_id is deprecated in APPPATH\Filters\JwtAuth.php on line 36.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/wallets/show', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-09-10 10:32:08 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$decoded_token is deprecated in APPPATH\Filters\JwtAuth.php on line 37.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/wallets/show', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-09-10 10:40:24 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$user_id is deprecated in APPPATH\Filters\JwtAuth.php on line 36.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/users/edit/16', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-09-10 10:40:24 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$decoded_token is deprecated in APPPATH\Filters\JwtAuth.php on line 37.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/users/edit/16', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-09-10 10:40:24 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$user_id is deprecated in APPPATH\Filters\JwtAuth.php on line 36.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/wallets/show', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-09-10 10:40:24 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$decoded_token is deprecated in APPPATH\Filters\JwtAuth.php on line 37.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/wallets/show', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-09-10 10:40:57 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$user_id is deprecated in APPPATH\Filters\JwtAuth.php on line 36.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/investments/list', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-09-10 10:40:57 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$decoded_token is deprecated in APPPATH\Filters\JwtAuth.php on line 37.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/investments/list', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+ERROR - 2025-09-10 10:40:57 --> mysqli_sql_exception: Champ 'i.created_at' inconnu dans field list in D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `i`.`inv...', 0)
+#1 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `i`.`inv...')
+#2 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `i`.`inv...')
+#3 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `i`.`inv...', Array, false)
+#4 D:\investissement\Projet Invest\backend\app\Controllers\Users\InvestmentController.php(42): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Users\InvestmentController->listInvestments()
+#6 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users\InvestmentController))
+#7 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\investissement\Projet Invest\backend\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('D:\\investisseme...')
+#12 {main}
+CRITICAL - 2025-09-10 10:40:57 --> CodeIgniter\Database\Exceptions\DatabaseException: Champ 'i.created_at' inconnu dans field list
+[Method: GET, Route: api/investments/list]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `i`.`investment_id`, `i`.`quantity`, `i`.`total_amount`, `i`.`created_at`, `i`.`reference`, `p`.`pack_id`, `p`.`pack_name`, `p`.`return_on_investment`, `p`.`objective_quantity`, `pr`.`product_id`, `pr`.`name` as `product_name`, `pr`.`image_url`, COALESCE(SUM(i2.quantity), 0) as total_invested, (p.objective_quantity - COALESCE(SUM(i2.quantity), 0)) as remaining_quantity, (COALESCE(SUM(i2.quantity), 0)/p.objective_quantity)*100 as progress_percentage
+FROM `investments` `i`
+JOIN `packs` `p` ON `p`.`pack_id` = `i`.`pack_id`
+JOIN `products` `pr` ON `pr`.`product_id` = `i`.`product_id`
+LEFT JOIN `investments` `i2` ON `i2`.`pack_id` = `i`.`pack_id`
+WHERE `i`.`user_id` = :i.user_id:
+GROUP BY `i`.`investment_id`, `p`.`pack_id`, `pr`.`product_id`', [...], false)
+ 2 APPPATH\Controllers\Users\InvestmentController.php(42): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users\InvestmentController->listInvestments()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users\InvestmentController))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+CRITICAL - 2025-09-10 10:40:57 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Champ 'i.created_at' inconnu dans field list
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `i`.`investment_id`, `i`.`quantity`, `i`.`total_amount`, `i`.`created_at`, `i`.`reference`, `p`.`pack_id`, `p`.`pack_name`, `p`.`return_on_investment`, `p`.`objective_quantity`, `pr`.`product_id`, `pr`.`name` as `product_name`, `pr`.`image_url`, COALESCE(SUM(i2.quantity), 0) as total_invested, (p.objective_quantity - COALESCE(SUM(i2.quantity), 0)) as remaining_quantity, (COALESCE(SUM(i2.quantity), 0)/p.objective_quantity)*100 as progress_percentage
+FROM `investments` `i`
+JOIN `packs` `p` ON `p`.`pack_id` = `i`.`pack_id`
+JOIN `products` `pr` ON `pr`.`product_id` = `i`.`product_id`
+LEFT JOIN `investments` `i2` ON `i2`.`pack_id` = `i`.`pack_id`
+WHERE `i`.`user_id` = \'14\'
+GROUP BY `i`.`investment_id`, `p`.`pack_id`, `pr`.`product_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `i`.`investment_id`, `i`.`quantity`, `i`.`total_amount`, `i`.`created_at`, `i`.`reference`, `p`.`pack_id`, `p`.`pack_name`, `p`.`return_on_investment`, `p`.`objective_quantity`, `pr`.`product_id`, `pr`.`name` as `product_name`, `pr`.`image_url`, COALESCE(SUM(i2.quantity), 0) as total_invested, (p.objective_quantity - COALESCE(SUM(i2.quantity), 0)) as remaining_quantity, (COALESCE(SUM(i2.quantity), 0)/p.objective_quantity)*100 as progress_percentage
+FROM `investments` `i`
+JOIN `packs` `p` ON `p`.`pack_id` = `i`.`pack_id`
+JOIN `products` `pr` ON `pr`.`product_id` = `i`.`product_id`
+LEFT JOIN `investments` `i2` ON `i2`.`pack_id` = `i`.`pack_id`
+WHERE `i`.`user_id` = \'14\'
+GROUP BY `i`.`investment_id`, `p`.`pack_id`, `pr`.`product_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `i`.`investment_id`, `i`.`quantity`, `i`.`total_amount`, `i`.`created_at`, `i`.`reference`, `p`.`pack_id`, `p`.`pack_name`, `p`.`return_on_investment`, `p`.`objective_quantity`, `pr`.`product_id`, `pr`.`name` as `product_name`, `pr`.`image_url`, COALESCE(SUM(i2.quantity), 0) as total_invested, (p.objective_quantity - COALESCE(SUM(i2.quantity), 0)) as remaining_quantity, (COALESCE(SUM(i2.quantity), 0)/p.objective_quantity)*100 as progress_percentage
+FROM `investments` `i`
+JOIN `packs` `p` ON `p`.`pack_id` = `i`.`pack_id`
+JOIN `products` `pr` ON `pr`.`product_id` = `i`.`product_id`
+LEFT JOIN `investments` `i2` ON `i2`.`pack_id` = `i`.`pack_id`
+WHERE `i`.`user_id` = :i.user_id:
+GROUP BY `i`.`investment_id`, `p`.`pack_id`, `pr`.`product_id`', [...], false)
+ 4 APPPATH\Controllers\Users\InvestmentController.php(42): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users\InvestmentController->listInvestments()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users\InvestmentController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+CRITICAL - 2025-09-10 10:40:57 --> [Caused by] mysqli_sql_exception: Champ 'i.created_at' inconnu dans field list
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `i`.`investment_id`, `i`.`quantity`, `i`.`total_amount`, `i`.`created_at`, `i`.`reference`, `p`.`pack_id`, `p`.`pack_name`, `p`.`return_on_investment`, `p`.`objective_quantity`, `pr`.`product_id`, `pr`.`name` as `product_name`, `pr`.`image_url`, COALESCE(SUM(i2.quantity), 0) as total_invested, (p.objective_quantity - COALESCE(SUM(i2.quantity), 0)) as remaining_quantity, (COALESCE(SUM(i2.quantity), 0)/p.objective_quantity)*100 as progress_percentage
+FROM `investments` `i`
+JOIN `packs` `p` ON `p`.`pack_id` = `i`.`pack_id`
+JOIN `products` `pr` ON `pr`.`product_id` = `i`.`product_id`
+LEFT JOIN `investments` `i2` ON `i2`.`pack_id` = `i`.`pack_id`
+WHERE `i`.`user_id` = \'14\'
+GROUP BY `i`.`investment_id`, `p`.`pack_id`, `pr`.`product_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `i`.`investment_id`, `i`.`quantity`, `i`.`total_amount`, `i`.`created_at`, `i`.`reference`, `p`.`pack_id`, `p`.`pack_name`, `p`.`return_on_investment`, `p`.`objective_quantity`, `pr`.`product_id`, `pr`.`name` as `product_name`, `pr`.`image_url`, COALESCE(SUM(i2.quantity), 0) as total_invested, (p.objective_quantity - COALESCE(SUM(i2.quantity), 0)) as remaining_quantity, (COALESCE(SUM(i2.quantity), 0)/p.objective_quantity)*100 as progress_percentage
+FROM `investments` `i`
+JOIN `packs` `p` ON `p`.`pack_id` = `i`.`pack_id`
+JOIN `products` `pr` ON `pr`.`product_id` = `i`.`product_id`
+LEFT JOIN `investments` `i2` ON `i2`.`pack_id` = `i`.`pack_id`
+WHERE `i`.`user_id` = \'14\'
+GROUP BY `i`.`investment_id`, `p`.`pack_id`, `pr`.`product_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `i`.`investment_id`, `i`.`quantity`, `i`.`total_amount`, `i`.`created_at`, `i`.`reference`, `p`.`pack_id`, `p`.`pack_name`, `p`.`return_on_investment`, `p`.`objective_quantity`, `pr`.`product_id`, `pr`.`name` as `product_name`, `pr`.`image_url`, COALESCE(SUM(i2.quantity), 0) as total_invested, (p.objective_quantity - COALESCE(SUM(i2.quantity), 0)) as remaining_quantity, (COALESCE(SUM(i2.quantity), 0)/p.objective_quantity)*100 as progress_percentage
+FROM `investments` `i`
+JOIN `packs` `p` ON `p`.`pack_id` = `i`.`pack_id`
+JOIN `products` `pr` ON `pr`.`product_id` = `i`.`product_id`
+LEFT JOIN `investments` `i2` ON `i2`.`pack_id` = `i`.`pack_id`
+WHERE `i`.`user_id` = \'14\'
+GROUP BY `i`.`investment_id`, `p`.`pack_id`, `pr`.`product_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `i`.`investment_id`, `i`.`quantity`, `i`.`total_amount`, `i`.`created_at`, `i`.`reference`, `p`.`pack_id`, `p`.`pack_name`, `p`.`return_on_investment`, `p`.`objective_quantity`, `pr`.`product_id`, `pr`.`name` as `product_name`, `pr`.`image_url`, COALESCE(SUM(i2.quantity), 0) as total_invested, (p.objective_quantity - COALESCE(SUM(i2.quantity), 0)) as remaining_quantity, (COALESCE(SUM(i2.quantity), 0)/p.objective_quantity)*100 as progress_percentage
+FROM `investments` `i`
+JOIN `packs` `p` ON `p`.`pack_id` = `i`.`pack_id`
+JOIN `products` `pr` ON `pr`.`product_id` = `i`.`product_id`
+LEFT JOIN `investments` `i2` ON `i2`.`pack_id` = `i`.`pack_id`
+WHERE `i`.`user_id` = :i.user_id:
+GROUP BY `i`.`investment_id`, `p`.`pack_id`, `pr`.`product_id`', [...], false)
+ 5 APPPATH\Controllers\Users\InvestmentController.php(42): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users\InvestmentController->listInvestments()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users\InvestmentController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-09-10 10:40:57 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$user_id is deprecated in APPPATH\Filters\JwtAuth.php on line 36.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/wallets/show', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-09-10 10:40:57 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$decoded_token is deprecated in APPPATH\Filters\JwtAuth.php on line 37.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/wallets/show', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-09-10 10:41:00 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$user_id is deprecated in APPPATH\Filters\JwtAuth.php on line 36.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/investments/list', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-09-10 10:41:00 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$decoded_token is deprecated in APPPATH\Filters\JwtAuth.php on line 37.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/investments/list', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+ERROR - 2025-09-10 10:41:00 --> mysqli_sql_exception: Champ 'i.created_at' inconnu dans field list in D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `i`.`inv...', 0)
+#1 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `i`.`inv...')
+#2 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `i`.`inv...')
+#3 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `i`.`inv...', Array, false)
+#4 D:\investissement\Projet Invest\backend\app\Controllers\Users\InvestmentController.php(42): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Users\InvestmentController->listInvestments()
+#6 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users\InvestmentController))
+#7 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\investissement\Projet Invest\backend\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('D:\\investisseme...')
+#12 {main}
+CRITICAL - 2025-09-10 10:41:00 --> CodeIgniter\Database\Exceptions\DatabaseException: Champ 'i.created_at' inconnu dans field list
+[Method: GET, Route: api/investments/list]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `i`.`investment_id`, `i`.`quantity`, `i`.`total_amount`, `i`.`created_at`, `i`.`reference`, `p`.`pack_id`, `p`.`pack_name`, `p`.`return_on_investment`, `p`.`objective_quantity`, `pr`.`product_id`, `pr`.`name` as `product_name`, `pr`.`image_url`, COALESCE(SUM(i2.quantity), 0) as total_invested, (p.objective_quantity - COALESCE(SUM(i2.quantity), 0)) as remaining_quantity, (COALESCE(SUM(i2.quantity), 0)/p.objective_quantity)*100 as progress_percentage
+FROM `investments` `i`
+JOIN `packs` `p` ON `p`.`pack_id` = `i`.`pack_id`
+JOIN `products` `pr` ON `pr`.`product_id` = `i`.`product_id`
+LEFT JOIN `investments` `i2` ON `i2`.`pack_id` = `i`.`pack_id`
+WHERE `i`.`user_id` = :i.user_id:
+GROUP BY `i`.`investment_id`, `p`.`pack_id`, `pr`.`product_id`', [...], false)
+ 2 APPPATH\Controllers\Users\InvestmentController.php(42): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users\InvestmentController->listInvestments()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users\InvestmentController))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+CRITICAL - 2025-09-10 10:41:00 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Champ 'i.created_at' inconnu dans field list
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `i`.`investment_id`, `i`.`quantity`, `i`.`total_amount`, `i`.`created_at`, `i`.`reference`, `p`.`pack_id`, `p`.`pack_name`, `p`.`return_on_investment`, `p`.`objective_quantity`, `pr`.`product_id`, `pr`.`name` as `product_name`, `pr`.`image_url`, COALESCE(SUM(i2.quantity), 0) as total_invested, (p.objective_quantity - COALESCE(SUM(i2.quantity), 0)) as remaining_quantity, (COALESCE(SUM(i2.quantity), 0)/p.objective_quantity)*100 as progress_percentage
+FROM `investments` `i`
+JOIN `packs` `p` ON `p`.`pack_id` = `i`.`pack_id`
+JOIN `products` `pr` ON `pr`.`product_id` = `i`.`product_id`
+LEFT JOIN `investments` `i2` ON `i2`.`pack_id` = `i`.`pack_id`
+WHERE `i`.`user_id` = \'14\'
+GROUP BY `i`.`investment_id`, `p`.`pack_id`, `pr`.`product_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `i`.`investment_id`, `i`.`quantity`, `i`.`total_amount`, `i`.`created_at`, `i`.`reference`, `p`.`pack_id`, `p`.`pack_name`, `p`.`return_on_investment`, `p`.`objective_quantity`, `pr`.`product_id`, `pr`.`name` as `product_name`, `pr`.`image_url`, COALESCE(SUM(i2.quantity), 0) as total_invested, (p.objective_quantity - COALESCE(SUM(i2.quantity), 0)) as remaining_quantity, (COALESCE(SUM(i2.quantity), 0)/p.objective_quantity)*100 as progress_percentage
+FROM `investments` `i`
+JOIN `packs` `p` ON `p`.`pack_id` = `i`.`pack_id`
+JOIN `products` `pr` ON `pr`.`product_id` = `i`.`product_id`
+LEFT JOIN `investments` `i2` ON `i2`.`pack_id` = `i`.`pack_id`
+WHERE `i`.`user_id` = \'14\'
+GROUP BY `i`.`investment_id`, `p`.`pack_id`, `pr`.`product_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `i`.`investment_id`, `i`.`quantity`, `i`.`total_amount`, `i`.`created_at`, `i`.`reference`, `p`.`pack_id`, `p`.`pack_name`, `p`.`return_on_investment`, `p`.`objective_quantity`, `pr`.`product_id`, `pr`.`name` as `product_name`, `pr`.`image_url`, COALESCE(SUM(i2.quantity), 0) as total_invested, (p.objective_quantity - COALESCE(SUM(i2.quantity), 0)) as remaining_quantity, (COALESCE(SUM(i2.quantity), 0)/p.objective_quantity)*100 as progress_percentage
+FROM `investments` `i`
+JOIN `packs` `p` ON `p`.`pack_id` = `i`.`pack_id`
+JOIN `products` `pr` ON `pr`.`product_id` = `i`.`product_id`
+LEFT JOIN `investments` `i2` ON `i2`.`pack_id` = `i`.`pack_id`
+WHERE `i`.`user_id` = :i.user_id:
+GROUP BY `i`.`investment_id`, `p`.`pack_id`, `pr`.`product_id`', [...], false)
+ 4 APPPATH\Controllers\Users\InvestmentController.php(42): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users\InvestmentController->listInvestments()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users\InvestmentController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+CRITICAL - 2025-09-10 10:41:00 --> [Caused by] mysqli_sql_exception: Champ 'i.created_at' inconnu dans field list
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `i`.`investment_id`, `i`.`quantity`, `i`.`total_amount`, `i`.`created_at`, `i`.`reference`, `p`.`pack_id`, `p`.`pack_name`, `p`.`return_on_investment`, `p`.`objective_quantity`, `pr`.`product_id`, `pr`.`name` as `product_name`, `pr`.`image_url`, COALESCE(SUM(i2.quantity), 0) as total_invested, (p.objective_quantity - COALESCE(SUM(i2.quantity), 0)) as remaining_quantity, (COALESCE(SUM(i2.quantity), 0)/p.objective_quantity)*100 as progress_percentage
+FROM `investments` `i`
+JOIN `packs` `p` ON `p`.`pack_id` = `i`.`pack_id`
+JOIN `products` `pr` ON `pr`.`product_id` = `i`.`product_id`
+LEFT JOIN `investments` `i2` ON `i2`.`pack_id` = `i`.`pack_id`
+WHERE `i`.`user_id` = \'14\'
+GROUP BY `i`.`investment_id`, `p`.`pack_id`, `pr`.`product_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `i`.`investment_id`, `i`.`quantity`, `i`.`total_amount`, `i`.`created_at`, `i`.`reference`, `p`.`pack_id`, `p`.`pack_name`, `p`.`return_on_investment`, `p`.`objective_quantity`, `pr`.`product_id`, `pr`.`name` as `product_name`, `pr`.`image_url`, COALESCE(SUM(i2.quantity), 0) as total_invested, (p.objective_quantity - COALESCE(SUM(i2.quantity), 0)) as remaining_quantity, (COALESCE(SUM(i2.quantity), 0)/p.objective_quantity)*100 as progress_percentage
+FROM `investments` `i`
+JOIN `packs` `p` ON `p`.`pack_id` = `i`.`pack_id`
+JOIN `products` `pr` ON `pr`.`product_id` = `i`.`product_id`
+LEFT JOIN `investments` `i2` ON `i2`.`pack_id` = `i`.`pack_id`
+WHERE `i`.`user_id` = \'14\'
+GROUP BY `i`.`investment_id`, `p`.`pack_id`, `pr`.`product_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `i`.`investment_id`, `i`.`quantity`, `i`.`total_amount`, `i`.`created_at`, `i`.`reference`, `p`.`pack_id`, `p`.`pack_name`, `p`.`return_on_investment`, `p`.`objective_quantity`, `pr`.`product_id`, `pr`.`name` as `product_name`, `pr`.`image_url`, COALESCE(SUM(i2.quantity), 0) as total_invested, (p.objective_quantity - COALESCE(SUM(i2.quantity), 0)) as remaining_quantity, (COALESCE(SUM(i2.quantity), 0)/p.objective_quantity)*100 as progress_percentage
+FROM `investments` `i`
+JOIN `packs` `p` ON `p`.`pack_id` = `i`.`pack_id`
+JOIN `products` `pr` ON `pr`.`product_id` = `i`.`product_id`
+LEFT JOIN `investments` `i2` ON `i2`.`pack_id` = `i`.`pack_id`
+WHERE `i`.`user_id` = \'14\'
+GROUP BY `i`.`investment_id`, `p`.`pack_id`, `pr`.`product_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `i`.`investment_id`, `i`.`quantity`, `i`.`total_amount`, `i`.`created_at`, `i`.`reference`, `p`.`pack_id`, `p`.`pack_name`, `p`.`return_on_investment`, `p`.`objective_quantity`, `pr`.`product_id`, `pr`.`name` as `product_name`, `pr`.`image_url`, COALESCE(SUM(i2.quantity), 0) as total_invested, (p.objective_quantity - COALESCE(SUM(i2.quantity), 0)) as remaining_quantity, (COALESCE(SUM(i2.quantity), 0)/p.objective_quantity)*100 as progress_percentage
+FROM `investments` `i`
+JOIN `packs` `p` ON `p`.`pack_id` = `i`.`pack_id`
+JOIN `products` `pr` ON `pr`.`product_id` = `i`.`product_id`
+LEFT JOIN `investments` `i2` ON `i2`.`pack_id` = `i`.`pack_id`
+WHERE `i`.`user_id` = :i.user_id:
+GROUP BY `i`.`investment_id`, `p`.`pack_id`, `pr`.`product_id`', [...], false)
+ 5 APPPATH\Controllers\Users\InvestmentController.php(42): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users\InvestmentController->listInvestments()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users\InvestmentController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-09-10 10:41:00 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$user_id is deprecated in APPPATH\Filters\JwtAuth.php on line 36.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/wallets/show', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-09-10 10:41:00 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$decoded_token is deprecated in APPPATH\Filters\JwtAuth.php on line 37.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/wallets/show', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-09-10 10:41:01 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$user_id is deprecated in APPPATH\Filters\JwtAuth.php on line 36.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/users/edit/14', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-09-10 10:41:01 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$decoded_token is deprecated in APPPATH\Filters\JwtAuth.php on line 37.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/users/edit/14', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-09-10 10:41:02 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$user_id is deprecated in APPPATH\Filters\JwtAuth.php on line 36.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/wallets/show', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-09-10 10:41:02 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$decoded_token is deprecated in APPPATH\Filters\JwtAuth.php on line 37.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/wallets/show', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-09-10 10:41:39 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$user_id is deprecated in APPPATH\Filters\JwtAuth.php on line 36.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/wallets/show', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-09-10 10:41:39 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$decoded_token is deprecated in APPPATH\Filters\JwtAuth.php on line 37.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/wallets/show', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-09-10 11:02:10 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$user_id is deprecated in APPPATH\Filters\JwtAuth.php on line 36.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/wallets/show', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-09-10 11:02:10 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$decoded_token is deprecated in APPPATH\Filters\JwtAuth.php on line 37.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/wallets/show', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-09-10 11:02:10 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$user_id is deprecated in APPPATH\Filters\JwtAuth.php on line 36.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/investments/list', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-09-10 11:02:10 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$decoded_token is deprecated in APPPATH\Filters\JwtAuth.php on line 37.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/investments/list', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+ERROR - 2025-09-10 11:02:10 --> mysqli_sql_exception: Champ 'i.created_at' inconnu dans field list in D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `i`.`inv...', 0)
+#1 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `i`.`inv...')
+#2 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `i`.`inv...')
+#3 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `i`.`inv...', Array, false)
+#4 D:\investissement\Projet Invest\backend\app\Controllers\Users\InvestmentController.php(42): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Users\InvestmentController->listInvestments()
+#6 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users\InvestmentController))
+#7 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\investissement\Projet Invest\backend\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('D:\\investisseme...')
+#12 {main}
+CRITICAL - 2025-09-10 11:02:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Champ 'i.created_at' inconnu dans field list
+[Method: GET, Route: api/investments/list]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `i`.`investment_id`, `i`.`quantity`, `i`.`total_amount`, `i`.`created_at`, `i`.`reference`, `p`.`pack_id`, `p`.`pack_name`, `p`.`return_on_investment`, `p`.`objective_quantity`, `pr`.`product_id`, `pr`.`name` as `product_name`, `pr`.`image_url`, COALESCE(SUM(i2.quantity), 0) as total_invested, (p.objective_quantity - COALESCE(SUM(i2.quantity), 0)) as remaining_quantity, (COALESCE(SUM(i2.quantity), 0)/p.objective_quantity)*100 as progress_percentage
+FROM `investments` `i`
+JOIN `packs` `p` ON `p`.`pack_id` = `i`.`pack_id`
+JOIN `products` `pr` ON `pr`.`product_id` = `i`.`product_id`
+LEFT JOIN `investments` `i2` ON `i2`.`pack_id` = `i`.`pack_id`
+WHERE `i`.`user_id` = :i.user_id:
+GROUP BY `i`.`investment_id`, `p`.`pack_id`, `pr`.`product_id`', [...], false)
+ 2 APPPATH\Controllers\Users\InvestmentController.php(42): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users\InvestmentController->listInvestments()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users\InvestmentController))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+CRITICAL - 2025-09-10 11:02:10 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Champ 'i.created_at' inconnu dans field list
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `i`.`investment_id`, `i`.`quantity`, `i`.`total_amount`, `i`.`created_at`, `i`.`reference`, `p`.`pack_id`, `p`.`pack_name`, `p`.`return_on_investment`, `p`.`objective_quantity`, `pr`.`product_id`, `pr`.`name` as `product_name`, `pr`.`image_url`, COALESCE(SUM(i2.quantity), 0) as total_invested, (p.objective_quantity - COALESCE(SUM(i2.quantity), 0)) as remaining_quantity, (COALESCE(SUM(i2.quantity), 0)/p.objective_quantity)*100 as progress_percentage
+FROM `investments` `i`
+JOIN `packs` `p` ON `p`.`pack_id` = `i`.`pack_id`
+JOIN `products` `pr` ON `pr`.`product_id` = `i`.`product_id`
+LEFT JOIN `investments` `i2` ON `i2`.`pack_id` = `i`.`pack_id`
+WHERE `i`.`user_id` = \'14\'
+GROUP BY `i`.`investment_id`, `p`.`pack_id`, `pr`.`product_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `i`.`investment_id`, `i`.`quantity`, `i`.`total_amount`, `i`.`created_at`, `i`.`reference`, `p`.`pack_id`, `p`.`pack_name`, `p`.`return_on_investment`, `p`.`objective_quantity`, `pr`.`product_id`, `pr`.`name` as `product_name`, `pr`.`image_url`, COALESCE(SUM(i2.quantity), 0) as total_invested, (p.objective_quantity - COALESCE(SUM(i2.quantity), 0)) as remaining_quantity, (COALESCE(SUM(i2.quantity), 0)/p.objective_quantity)*100 as progress_percentage
+FROM `investments` `i`
+JOIN `packs` `p` ON `p`.`pack_id` = `i`.`pack_id`
+JOIN `products` `pr` ON `pr`.`product_id` = `i`.`product_id`
+LEFT JOIN `investments` `i2` ON `i2`.`pack_id` = `i`.`pack_id`
+WHERE `i`.`user_id` = \'14\'
+GROUP BY `i`.`investment_id`, `p`.`pack_id`, `pr`.`product_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `i`.`investment_id`, `i`.`quantity`, `i`.`total_amount`, `i`.`created_at`, `i`.`reference`, `p`.`pack_id`, `p`.`pack_name`, `p`.`return_on_investment`, `p`.`objective_quantity`, `pr`.`product_id`, `pr`.`name` as `product_name`, `pr`.`image_url`, COALESCE(SUM(i2.quantity), 0) as total_invested, (p.objective_quantity - COALESCE(SUM(i2.quantity), 0)) as remaining_quantity, (COALESCE(SUM(i2.quantity), 0)/p.objective_quantity)*100 as progress_percentage
+FROM `investments` `i`
+JOIN `packs` `p` ON `p`.`pack_id` = `i`.`pack_id`
+JOIN `products` `pr` ON `pr`.`product_id` = `i`.`product_id`
+LEFT JOIN `investments` `i2` ON `i2`.`pack_id` = `i`.`pack_id`
+WHERE `i`.`user_id` = :i.user_id:
+GROUP BY `i`.`investment_id`, `p`.`pack_id`, `pr`.`product_id`', [...], false)
+ 4 APPPATH\Controllers\Users\InvestmentController.php(42): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users\InvestmentController->listInvestments()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users\InvestmentController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+CRITICAL - 2025-09-10 11:02:10 --> [Caused by] mysqli_sql_exception: Champ 'i.created_at' inconnu dans field list
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `i`.`investment_id`, `i`.`quantity`, `i`.`total_amount`, `i`.`created_at`, `i`.`reference`, `p`.`pack_id`, `p`.`pack_name`, `p`.`return_on_investment`, `p`.`objective_quantity`, `pr`.`product_id`, `pr`.`name` as `product_name`, `pr`.`image_url`, COALESCE(SUM(i2.quantity), 0) as total_invested, (p.objective_quantity - COALESCE(SUM(i2.quantity), 0)) as remaining_quantity, (COALESCE(SUM(i2.quantity), 0)/p.objective_quantity)*100 as progress_percentage
+FROM `investments` `i`
+JOIN `packs` `p` ON `p`.`pack_id` = `i`.`pack_id`
+JOIN `products` `pr` ON `pr`.`product_id` = `i`.`product_id`
+LEFT JOIN `investments` `i2` ON `i2`.`pack_id` = `i`.`pack_id`
+WHERE `i`.`user_id` = \'14\'
+GROUP BY `i`.`investment_id`, `p`.`pack_id`, `pr`.`product_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `i`.`investment_id`, `i`.`quantity`, `i`.`total_amount`, `i`.`created_at`, `i`.`reference`, `p`.`pack_id`, `p`.`pack_name`, `p`.`return_on_investment`, `p`.`objective_quantity`, `pr`.`product_id`, `pr`.`name` as `product_name`, `pr`.`image_url`, COALESCE(SUM(i2.quantity), 0) as total_invested, (p.objective_quantity - COALESCE(SUM(i2.quantity), 0)) as remaining_quantity, (COALESCE(SUM(i2.quantity), 0)/p.objective_quantity)*100 as progress_percentage
+FROM `investments` `i`
+JOIN `packs` `p` ON `p`.`pack_id` = `i`.`pack_id`
+JOIN `products` `pr` ON `pr`.`product_id` = `i`.`product_id`
+LEFT JOIN `investments` `i2` ON `i2`.`pack_id` = `i`.`pack_id`
+WHERE `i`.`user_id` = \'14\'
+GROUP BY `i`.`investment_id`, `p`.`pack_id`, `pr`.`product_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `i`.`investment_id`, `i`.`quantity`, `i`.`total_amount`, `i`.`created_at`, `i`.`reference`, `p`.`pack_id`, `p`.`pack_name`, `p`.`return_on_investment`, `p`.`objective_quantity`, `pr`.`product_id`, `pr`.`name` as `product_name`, `pr`.`image_url`, COALESCE(SUM(i2.quantity), 0) as total_invested, (p.objective_quantity - COALESCE(SUM(i2.quantity), 0)) as remaining_quantity, (COALESCE(SUM(i2.quantity), 0)/p.objective_quantity)*100 as progress_percentage
+FROM `investments` `i`
+JOIN `packs` `p` ON `p`.`pack_id` = `i`.`pack_id`
+JOIN `products` `pr` ON `pr`.`product_id` = `i`.`product_id`
+LEFT JOIN `investments` `i2` ON `i2`.`pack_id` = `i`.`pack_id`
+WHERE `i`.`user_id` = \'14\'
+GROUP BY `i`.`investment_id`, `p`.`pack_id`, `pr`.`product_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `i`.`investment_id`, `i`.`quantity`, `i`.`total_amount`, `i`.`created_at`, `i`.`reference`, `p`.`pack_id`, `p`.`pack_name`, `p`.`return_on_investment`, `p`.`objective_quantity`, `pr`.`product_id`, `pr`.`name` as `product_name`, `pr`.`image_url`, COALESCE(SUM(i2.quantity), 0) as total_invested, (p.objective_quantity - COALESCE(SUM(i2.quantity), 0)) as remaining_quantity, (COALESCE(SUM(i2.quantity), 0)/p.objective_quantity)*100 as progress_percentage
+FROM `investments` `i`
+JOIN `packs` `p` ON `p`.`pack_id` = `i`.`pack_id`
+JOIN `products` `pr` ON `pr`.`product_id` = `i`.`product_id`
+LEFT JOIN `investments` `i2` ON `i2`.`pack_id` = `i`.`pack_id`
+WHERE `i`.`user_id` = :i.user_id:
+GROUP BY `i`.`investment_id`, `p`.`pack_id`, `pr`.`product_id`', [...], false)
+ 5 APPPATH\Controllers\Users\InvestmentController.php(42): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users\InvestmentController->listInvestments()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users\InvestmentController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-09-10 11:02:11 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$user_id is deprecated in APPPATH\Filters\JwtAuth.php on line 36.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/investments/list', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-09-10 11:02:11 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$decoded_token is deprecated in APPPATH\Filters\JwtAuth.php on line 37.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/investments/list', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+ERROR - 2025-09-10 11:02:11 --> mysqli_sql_exception: Champ 'i.created_at' inconnu dans field list in D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `i`.`inv...', 0)
+#1 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `i`.`inv...')
+#2 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `i`.`inv...')
+#3 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `i`.`inv...', Array, false)
+#4 D:\investissement\Projet Invest\backend\app\Controllers\Users\InvestmentController.php(42): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Users\InvestmentController->listInvestments()
+#6 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users\InvestmentController))
+#7 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\investissement\Projet Invest\backend\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('D:\\investisseme...')
+#12 {main}
+CRITICAL - 2025-09-10 11:02:11 --> CodeIgniter\Database\Exceptions\DatabaseException: Champ 'i.created_at' inconnu dans field list
+[Method: GET, Route: api/investments/list]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `i`.`investment_id`, `i`.`quantity`, `i`.`total_amount`, `i`.`created_at`, `i`.`reference`, `p`.`pack_id`, `p`.`pack_name`, `p`.`return_on_investment`, `p`.`objective_quantity`, `pr`.`product_id`, `pr`.`name` as `product_name`, `pr`.`image_url`, COALESCE(SUM(i2.quantity), 0) as total_invested, (p.objective_quantity - COALESCE(SUM(i2.quantity), 0)) as remaining_quantity, (COALESCE(SUM(i2.quantity), 0)/p.objective_quantity)*100 as progress_percentage
+FROM `investments` `i`
+JOIN `packs` `p` ON `p`.`pack_id` = `i`.`pack_id`
+JOIN `products` `pr` ON `pr`.`product_id` = `i`.`product_id`
+LEFT JOIN `investments` `i2` ON `i2`.`pack_id` = `i`.`pack_id`
+WHERE `i`.`user_id` = :i.user_id:
+GROUP BY `i`.`investment_id`, `p`.`pack_id`, `pr`.`product_id`', [...], false)
+ 2 APPPATH\Controllers\Users\InvestmentController.php(42): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users\InvestmentController->listInvestments()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users\InvestmentController))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+CRITICAL - 2025-09-10 11:02:11 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Champ 'i.created_at' inconnu dans field list
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `i`.`investment_id`, `i`.`quantity`, `i`.`total_amount`, `i`.`created_at`, `i`.`reference`, `p`.`pack_id`, `p`.`pack_name`, `p`.`return_on_investment`, `p`.`objective_quantity`, `pr`.`product_id`, `pr`.`name` as `product_name`, `pr`.`image_url`, COALESCE(SUM(i2.quantity), 0) as total_invested, (p.objective_quantity - COALESCE(SUM(i2.quantity), 0)) as remaining_quantity, (COALESCE(SUM(i2.quantity), 0)/p.objective_quantity)*100 as progress_percentage
+FROM `investments` `i`
+JOIN `packs` `p` ON `p`.`pack_id` = `i`.`pack_id`
+JOIN `products` `pr` ON `pr`.`product_id` = `i`.`product_id`
+LEFT JOIN `investments` `i2` ON `i2`.`pack_id` = `i`.`pack_id`
+WHERE `i`.`user_id` = \'14\'
+GROUP BY `i`.`investment_id`, `p`.`pack_id`, `pr`.`product_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `i`.`investment_id`, `i`.`quantity`, `i`.`total_amount`, `i`.`created_at`, `i`.`reference`, `p`.`pack_id`, `p`.`pack_name`, `p`.`return_on_investment`, `p`.`objective_quantity`, `pr`.`product_id`, `pr`.`name` as `product_name`, `pr`.`image_url`, COALESCE(SUM(i2.quantity), 0) as total_invested, (p.objective_quantity - COALESCE(SUM(i2.quantity), 0)) as remaining_quantity, (COALESCE(SUM(i2.quantity), 0)/p.objective_quantity)*100 as progress_percentage
+FROM `investments` `i`
+JOIN `packs` `p` ON `p`.`pack_id` = `i`.`pack_id`
+JOIN `products` `pr` ON `pr`.`product_id` = `i`.`product_id`
+LEFT JOIN `investments` `i2` ON `i2`.`pack_id` = `i`.`pack_id`
+WHERE `i`.`user_id` = \'14\'
+GROUP BY `i`.`investment_id`, `p`.`pack_id`, `pr`.`product_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `i`.`investment_id`, `i`.`quantity`, `i`.`total_amount`, `i`.`created_at`, `i`.`reference`, `p`.`pack_id`, `p`.`pack_name`, `p`.`return_on_investment`, `p`.`objective_quantity`, `pr`.`product_id`, `pr`.`name` as `product_name`, `pr`.`image_url`, COALESCE(SUM(i2.quantity), 0) as total_invested, (p.objective_quantity - COALESCE(SUM(i2.quantity), 0)) as remaining_quantity, (COALESCE(SUM(i2.quantity), 0)/p.objective_quantity)*100 as progress_percentage
+FROM `investments` `i`
+JOIN `packs` `p` ON `p`.`pack_id` = `i`.`pack_id`
+JOIN `products` `pr` ON `pr`.`product_id` = `i`.`product_id`
+LEFT JOIN `investments` `i2` ON `i2`.`pack_id` = `i`.`pack_id`
+WHERE `i`.`user_id` = :i.user_id:
+GROUP BY `i`.`investment_id`, `p`.`pack_id`, `pr`.`product_id`', [...], false)
+ 4 APPPATH\Controllers\Users\InvestmentController.php(42): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users\InvestmentController->listInvestments()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users\InvestmentController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+CRITICAL - 2025-09-10 11:02:11 --> [Caused by] mysqli_sql_exception: Champ 'i.created_at' inconnu dans field list
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `i`.`investment_id`, `i`.`quantity`, `i`.`total_amount`, `i`.`created_at`, `i`.`reference`, `p`.`pack_id`, `p`.`pack_name`, `p`.`return_on_investment`, `p`.`objective_quantity`, `pr`.`product_id`, `pr`.`name` as `product_name`, `pr`.`image_url`, COALESCE(SUM(i2.quantity), 0) as total_invested, (p.objective_quantity - COALESCE(SUM(i2.quantity), 0)) as remaining_quantity, (COALESCE(SUM(i2.quantity), 0)/p.objective_quantity)*100 as progress_percentage
+FROM `investments` `i`
+JOIN `packs` `p` ON `p`.`pack_id` = `i`.`pack_id`
+JOIN `products` `pr` ON `pr`.`product_id` = `i`.`product_id`
+LEFT JOIN `investments` `i2` ON `i2`.`pack_id` = `i`.`pack_id`
+WHERE `i`.`user_id` = \'14\'
+GROUP BY `i`.`investment_id`, `p`.`pack_id`, `pr`.`product_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `i`.`investment_id`, `i`.`quantity`, `i`.`total_amount`, `i`.`created_at`, `i`.`reference`, `p`.`pack_id`, `p`.`pack_name`, `p`.`return_on_investment`, `p`.`objective_quantity`, `pr`.`product_id`, `pr`.`name` as `product_name`, `pr`.`image_url`, COALESCE(SUM(i2.quantity), 0) as total_invested, (p.objective_quantity - COALESCE(SUM(i2.quantity), 0)) as remaining_quantity, (COALESCE(SUM(i2.quantity), 0)/p.objective_quantity)*100 as progress_percentage
+FROM `investments` `i`
+JOIN `packs` `p` ON `p`.`pack_id` = `i`.`pack_id`
+JOIN `products` `pr` ON `pr`.`product_id` = `i`.`product_id`
+LEFT JOIN `investments` `i2` ON `i2`.`pack_id` = `i`.`pack_id`
+WHERE `i`.`user_id` = \'14\'
+GROUP BY `i`.`investment_id`, `p`.`pack_id`, `pr`.`product_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `i`.`investment_id`, `i`.`quantity`, `i`.`total_amount`, `i`.`created_at`, `i`.`reference`, `p`.`pack_id`, `p`.`pack_name`, `p`.`return_on_investment`, `p`.`objective_quantity`, `pr`.`product_id`, `pr`.`name` as `product_name`, `pr`.`image_url`, COALESCE(SUM(i2.quantity), 0) as total_invested, (p.objective_quantity - COALESCE(SUM(i2.quantity), 0)) as remaining_quantity, (COALESCE(SUM(i2.quantity), 0)/p.objective_quantity)*100 as progress_percentage
+FROM `investments` `i`
+JOIN `packs` `p` ON `p`.`pack_id` = `i`.`pack_id`
+JOIN `products` `pr` ON `pr`.`product_id` = `i`.`product_id`
+LEFT JOIN `investments` `i2` ON `i2`.`pack_id` = `i`.`pack_id`
+WHERE `i`.`user_id` = \'14\'
+GROUP BY `i`.`investment_id`, `p`.`pack_id`, `pr`.`product_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `i`.`investment_id`, `i`.`quantity`, `i`.`total_amount`, `i`.`created_at`, `i`.`reference`, `p`.`pack_id`, `p`.`pack_name`, `p`.`return_on_investment`, `p`.`objective_quantity`, `pr`.`product_id`, `pr`.`name` as `product_name`, `pr`.`image_url`, COALESCE(SUM(i2.quantity), 0) as total_invested, (p.objective_quantity - COALESCE(SUM(i2.quantity), 0)) as remaining_quantity, (COALESCE(SUM(i2.quantity), 0)/p.objective_quantity)*100 as progress_percentage
+FROM `investments` `i`
+JOIN `packs` `p` ON `p`.`pack_id` = `i`.`pack_id`
+JOIN `products` `pr` ON `pr`.`product_id` = `i`.`product_id`
+LEFT JOIN `investments` `i2` ON `i2`.`pack_id` = `i`.`pack_id`
+WHERE `i`.`user_id` = :i.user_id:
+GROUP BY `i`.`investment_id`, `p`.`pack_id`, `pr`.`product_id`', [...], false)
+ 5 APPPATH\Controllers\Users\InvestmentController.php(42): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users\InvestmentController->listInvestments()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users\InvestmentController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-09-10 11:02:14 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$user_id is deprecated in APPPATH\Filters\JwtAuth.php on line 36.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/wallets/show', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-09-10 11:02:14 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$decoded_token is deprecated in APPPATH\Filters\JwtAuth.php on line 37.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/wallets/show', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-09-10 11:02:15 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$user_id is deprecated in APPPATH\Filters\JwtAuth.php on line 36.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/wallets/show', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-09-10 11:02:15 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$decoded_token is deprecated in APPPATH\Filters\JwtAuth.php on line 37.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/wallets/show', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-09-10 11:02:15 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$user_id is deprecated in APPPATH\Filters\JwtAuth.php on line 36.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/users/edit/14', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-09-10 11:02:15 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$decoded_token is deprecated in APPPATH\Filters\JwtAuth.php on line 37.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/users/edit/14', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-09-10 11:02:44 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$user_id is deprecated in APPPATH\Filters\JwtAuth.php on line 36.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/wallets/show', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-09-10 11:02:44 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$decoded_token is deprecated in APPPATH\Filters\JwtAuth.php on line 37.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/wallets/show', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-09-10 11:07:25 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$user_id is deprecated in APPPATH\Filters\JwtAuth.php on line 36.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/wallets/show', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-09-10 11:07:25 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$decoded_token is deprecated in APPPATH\Filters\JwtAuth.php on line 37.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/wallets/show', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')

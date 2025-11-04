@@ -1,0 +1,900 @@
+CRITICAL - 2025-08-03 08:46:02 --> ErrorException: Undefined property: CodeIgniter\HTTP\IncomingRequest::$user_id
+[Method: GET, Route: api/investments/list]
+in APPPATH\Controllers\Users\InvestmentController.php on line 11.
+ 1 APPPATH\Controllers\Users\InvestmentController.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$user_id', 'D:\\investissement\\Projet Invest\\backend\\app\\Controllers\\Users\\InvestmentController.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users\InvestmentController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users\InvestmentController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-08-03 08:46:02 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$user_id is deprecated in APPPATH\Filters\JwtAuth.php on line 36.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/wallets/show', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-08-03 08:46:02 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$decoded_token is deprecated in APPPATH\Filters\JwtAuth.php on line 37.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/wallets/show', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+CRITICAL - 2025-08-03 08:50:05 --> CodeIgniter\Router\Exceptions\RouterException: The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\Client/ClientController::create"
+[Method: POST, Route: api/clients/create]
+in SYSTEMPATH\Router\Router.php on line 496.
+ 1 SYSTEMPATH\Router\Router.php(496): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Client/ClientController::create')
+ 2 SYSTEMPATH\Router\Router.php(213): CodeIgniter\Router\Router->checkRoutes('api/clients/create')
+ 3 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('api/clients/create')
+ 4 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+CRITICAL - 2025-08-03 08:57:32 --> ErrorException: Undefined array key "nom"
+[Method: POST, Route: api/clients/create]
+in APPPATH\Controllers\Client\ClientController.php on line 27.
+ 1 APPPATH\Controllers\Client\ClientController.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nom"', 'D:\\investissement\\Projet Invest\\backend\\app\\Controllers\\Client\\ClientController.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client\ClientController->create()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client\ClientController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+CRITICAL - 2025-08-03 09:02:07 --> ErrorException: Undefined property: CodeIgniter\HTTP\IncomingRequest::$user_id
+[Method: GET, Route: api/investments/list]
+in APPPATH\Controllers\Users\InvestmentController.php on line 11.
+ 1 APPPATH\Controllers\Users\InvestmentController.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$user_id', 'D:\\investissement\\Projet Invest\\backend\\app\\Controllers\\Users\\InvestmentController.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users\InvestmentController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users\InvestmentController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-08-03 09:02:07 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$user_id is deprecated in APPPATH\Filters\JwtAuth.php on line 36.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/wallets/show', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-08-03 09:02:07 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$decoded_token is deprecated in APPPATH\Filters\JwtAuth.php on line 37.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/wallets/show', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+CRITICAL - 2025-08-03 09:04:51 --> ErrorException: Undefined property: CodeIgniter\HTTP\IncomingRequest::$user_id
+[Method: GET, Route: api/investments/list]
+in APPPATH\Controllers\Users\InvestmentController.php on line 11.
+ 1 APPPATH\Controllers\Users\InvestmentController.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$user_id', 'D:\\investissement\\Projet Invest\\backend\\app\\Controllers\\Users\\InvestmentController.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users\InvestmentController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users\InvestmentController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-08-03 09:04:51 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$user_id is deprecated in APPPATH\Filters\JwtAuth.php on line 36.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/wallets/show', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-08-03 09:04:51 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$decoded_token is deprecated in APPPATH\Filters\JwtAuth.php on line 37.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/wallets/show', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+CRITICAL - 2025-08-03 09:05:56 --> ErrorException: Undefined array key "nom"
+[Method: POST, Route: api/clients/create]
+in APPPATH\Controllers\Client\ClientController.php on line 27.
+ 1 APPPATH\Controllers\Client\ClientController.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nom"', 'D:\\investissement\\Projet Invest\\backend\\app\\Controllers\\Client\\ClientController.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client\ClientController->create()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client\ClientController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+CRITICAL - 2025-08-03 09:06:22 --> ErrorException: Undefined array key "first_name"
+[Method: POST, Route: api/clients/create]
+in APPPATH\Controllers\Client\ClientController.php on line 27.
+ 1 APPPATH\Controllers\Client\ClientController.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "first_name"', 'D:\\investissement\\Projet Invest\\backend\\app\\Controllers\\Client\\ClientController.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client\ClientController->create()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client\ClientController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+CRITICAL - 2025-08-03 09:06:34 --> ErrorException: Undefined array key "first_name"
+[Method: POST, Route: api/clients/create]
+in APPPATH\Controllers\Client\ClientController.php on line 27.
+ 1 APPPATH\Controllers\Client\ClientController.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "first_name"', 'D:\\investissement\\Projet Invest\\backend\\app\\Controllers\\Client\\ClientController.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client\ClientController->create()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client\ClientController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+CRITICAL - 2025-08-03 09:08:47 --> ErrorException: Undefined array key "first_name"
+[Method: POST, Route: api/clients/create]
+in APPPATH\Controllers\Client\ClientController.php on line 27.
+ 1 APPPATH\Controllers\Client\ClientController.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "first_name"', 'D:\\investissement\\Projet Invest\\backend\\app\\Controllers\\Client\\ClientController.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client\ClientController->create()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client\ClientController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+CRITICAL - 2025-08-03 09:17:16 --> ErrorException: Undefined property: CodeIgniter\HTTP\IncomingRequest::$user_id
+[Method: GET, Route: api/investments/list]
+in APPPATH\Controllers\Users\InvestmentController.php on line 11.
+ 1 APPPATH\Controllers\Users\InvestmentController.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$user_id', 'D:\\investissement\\Projet Invest\\backend\\app\\Controllers\\Users\\InvestmentController.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users\InvestmentController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users\InvestmentController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-08-03 09:17:16 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$user_id is deprecated in APPPATH\Filters\JwtAuth.php on line 36.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/wallets/show', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-08-03 09:17:16 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$decoded_token is deprecated in APPPATH\Filters\JwtAuth.php on line 37.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/wallets/show', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+CRITICAL - 2025-08-03 09:18:19 --> ErrorException: Undefined array key "first_name"
+[Method: POST, Route: api/clients/create]
+in APPPATH\Controllers\Client\ClientController.php on line 27.
+ 1 APPPATH\Controllers\Client\ClientController.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "first_name"', 'D:\\investissement\\Projet Invest\\backend\\app\\Controllers\\Client\\ClientController.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client\ClientController->create()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client\ClientController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+DEBUG - 2025-08-03 09:30:14 --> Données reçues : Array
+(
+)
+
+DEBUG - 2025-08-03 09:34:12 --> Données reçues : Array
+(
+    [first_name] => A
+    [last_name] => A
+    [adresse] => andy7andria@gmail.com
+    [contact] => 8
+    [product_id] => 4
+)
+
+WARNING - 2025-08-03 13:41:26 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$user_id is deprecated in APPPATH\Filters\JwtAuth.php on line 36.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/wallets/show', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-08-03 13:41:26 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$decoded_token is deprecated in APPPATH\Filters\JwtAuth.php on line 37.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/wallets/show', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+CRITICAL - 2025-08-03 13:41:26 --> ErrorException: Undefined property: CodeIgniter\HTTP\IncomingRequest::$user_id
+[Method: GET, Route: api/investments/list]
+in APPPATH\Controllers\Users\InvestmentController.php on line 11.
+ 1 APPPATH\Controllers\Users\InvestmentController.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$user_id', 'D:\\investissement\\Projet Invest\\backend\\app\\Controllers\\Users\\InvestmentController.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users\InvestmentController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users\InvestmentController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+DEBUG - 2025-08-03 13:42:15 --> Données reçues : Array
+(
+    [first_name] => Ata
+    [last_name] => Ta
+    [adresse] => test2@gmail.com
+    [contact] => 0123
+    [product_id] => 4
+)
+
+DEBUG - 2025-08-03 13:44:28 --> Données reçues : Array
+(
+    [first_name] => Pa
+    [last_name] => Pa
+    [adresse] => test2@gmail.com
+    [contact] => 0002
+    [product_id] => 4
+)
+
+WARNING - 2025-08-03 13:54:37 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$user_id is deprecated in APPPATH\Filters\JwtAuth.php on line 36.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/wallets/show', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-08-03 13:54:37 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$decoded_token is deprecated in APPPATH\Filters\JwtAuth.php on line 37.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/wallets/show', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+CRITICAL - 2025-08-03 13:54:37 --> ErrorException: Undefined property: CodeIgniter\HTTP\IncomingRequest::$user_id
+[Method: GET, Route: api/investments/list]
+in APPPATH\Controllers\Users\InvestmentController.php on line 11.
+ 1 APPPATH\Controllers\Users\InvestmentController.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$user_id', 'D:\\investissement\\Projet Invest\\backend\\app\\Controllers\\Users\\InvestmentController.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users\InvestmentController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users\InvestmentController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+CRITICAL - 2025-08-03 14:01:15 --> ErrorException: Undefined property: CodeIgniter\HTTP\IncomingRequest::$user_id
+[Method: GET, Route: api/investments/list]
+in APPPATH\Controllers\Users\InvestmentController.php on line 11.
+ 1 APPPATH\Controllers\Users\InvestmentController.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$user_id', 'D:\\investissement\\Projet Invest\\backend\\app\\Controllers\\Users\\InvestmentController.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users\InvestmentController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users\InvestmentController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-08-03 14:01:15 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$user_id is deprecated in APPPATH\Filters\JwtAuth.php on line 36.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/wallets/show', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-08-03 14:01:15 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$decoded_token is deprecated in APPPATH\Filters\JwtAuth.php on line 37.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/wallets/show', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-08-03 14:14:34 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$user_id is deprecated in APPPATH\Filters\JwtAuth.php on line 36.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/wallets/show', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-08-03 14:14:34 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$decoded_token is deprecated in APPPATH\Filters\JwtAuth.php on line 37.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/wallets/show', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+CRITICAL - 2025-08-03 14:14:34 --> ErrorException: Undefined property: CodeIgniter\HTTP\IncomingRequest::$user_id
+[Method: GET, Route: api/investments/list]
+in APPPATH\Controllers\Users\InvestmentController.php on line 11.
+ 1 APPPATH\Controllers\Users\InvestmentController.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$user_id', 'D:\\investissement\\Projet Invest\\backend\\app\\Controllers\\Users\\InvestmentController.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users\InvestmentController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users\InvestmentController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+CRITICAL - 2025-08-03 14:20:27 --> ErrorException: Undefined property: CodeIgniter\HTTP\IncomingRequest::$user_id
+[Method: GET, Route: api/investments/list]
+in APPPATH\Controllers\Users\InvestmentController.php on line 11.
+ 1 APPPATH\Controllers\Users\InvestmentController.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$user_id', 'D:\\investissement\\Projet Invest\\backend\\app\\Controllers\\Users\\InvestmentController.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users\InvestmentController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users\InvestmentController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-08-03 14:20:28 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$user_id is deprecated in APPPATH\Filters\JwtAuth.php on line 36.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/wallets/show', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-08-03 14:20:28 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$decoded_token is deprecated in APPPATH\Filters\JwtAuth.php on line 37.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/wallets/show', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-08-03 14:29:28 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$user_id is deprecated in APPPATH\Filters\JwtAuth.php on line 36.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/wallets/show', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-08-03 14:29:28 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$decoded_token is deprecated in APPPATH\Filters\JwtAuth.php on line 37.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/wallets/show', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+CRITICAL - 2025-08-03 14:29:28 --> ErrorException: Undefined property: CodeIgniter\HTTP\IncomingRequest::$user_id
+[Method: GET, Route: api/investments/list]
+in APPPATH\Controllers\Users\InvestmentController.php on line 11.
+ 1 APPPATH\Controllers\Users\InvestmentController.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$user_id', 'D:\\investissement\\Projet Invest\\backend\\app\\Controllers\\Users\\InvestmentController.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users\InvestmentController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users\InvestmentController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-08-03 15:00:26 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$user_id is deprecated in APPPATH\Filters\JwtAuth.php on line 36.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/wallets/show', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-08-03 15:00:26 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$decoded_token is deprecated in APPPATH\Filters\JwtAuth.php on line 37.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/wallets/show', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+CRITICAL - 2025-08-03 15:00:26 --> ErrorException: Undefined property: CodeIgniter\HTTP\IncomingRequest::$user_id
+[Method: GET, Route: api/investments/list]
+in APPPATH\Controllers\Users\InvestmentController.php on line 11.
+ 1 APPPATH\Controllers\Users\InvestmentController.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$user_id', 'D:\\investissement\\Projet Invest\\backend\\app\\Controllers\\Users\\InvestmentController.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users\InvestmentController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users\InvestmentController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+CRITICAL - 2025-08-03 15:03:07 --> ErrorException: Undefined property: CodeIgniter\HTTP\IncomingRequest::$user_id
+[Method: GET, Route: api/investments/list]
+in APPPATH\Controllers\Users\InvestmentController.php on line 11.
+ 1 APPPATH\Controllers\Users\InvestmentController.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$user_id', 'D:\\investissement\\Projet Invest\\backend\\app\\Controllers\\Users\\InvestmentController.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users\InvestmentController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users\InvestmentController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-08-03 15:03:07 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$user_id is deprecated in APPPATH\Filters\JwtAuth.php on line 36.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/wallets/show', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-08-03 15:03:07 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$decoded_token is deprecated in APPPATH\Filters\JwtAuth.php on line 37.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/wallets/show', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+CRITICAL - 2025-08-03 15:10:40 --> ErrorException: Undefined property: CodeIgniter\HTTP\IncomingRequest::$user_id
+[Method: GET, Route: api/investments/list]
+in APPPATH\Controllers\Users\InvestmentController.php on line 11.
+ 1 APPPATH\Controllers\Users\InvestmentController.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$user_id', 'D:\\investissement\\Projet Invest\\backend\\app\\Controllers\\Users\\InvestmentController.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users\InvestmentController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users\InvestmentController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-08-03 15:10:40 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$user_id is deprecated in APPPATH\Filters\JwtAuth.php on line 36.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/wallets/show', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-08-03 15:10:40 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$decoded_token is deprecated in APPPATH\Filters\JwtAuth.php on line 37.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/wallets/show', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+CRITICAL - 2025-08-03 15:17:47 --> ErrorException: Undefined property: CodeIgniter\HTTP\IncomingRequest::$user_id
+[Method: GET, Route: api/investments/list]
+in APPPATH\Controllers\Users\InvestmentController.php on line 11.
+ 1 APPPATH\Controllers\Users\InvestmentController.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$user_id', 'D:\\investissement\\Projet Invest\\backend\\app\\Controllers\\Users\\InvestmentController.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users\InvestmentController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users\InvestmentController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-08-03 15:22:49 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$user_id is deprecated in APPPATH\Filters\JwtAuth.php on line 36.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/wallets/show', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-08-03 15:22:49 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$decoded_token is deprecated in APPPATH\Filters\JwtAuth.php on line 37.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/wallets/show', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+CRITICAL - 2025-08-03 15:22:49 --> ErrorException: Undefined property: CodeIgniter\HTTP\IncomingRequest::$user_id
+[Method: GET, Route: api/investments/list]
+in APPPATH\Controllers\Users\InvestmentController.php on line 11.
+ 1 APPPATH\Controllers\Users\InvestmentController.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$user_id', 'D:\\investissement\\Projet Invest\\backend\\app\\Controllers\\Users\\InvestmentController.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users\InvestmentController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users\InvestmentController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-08-03 15:34:49 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$user_id is deprecated in APPPATH\Filters\JwtAuth.php on line 36.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/wallets/show', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-08-03 15:34:49 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$decoded_token is deprecated in APPPATH\Filters\JwtAuth.php on line 37.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/wallets/show', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+CRITICAL - 2025-08-03 15:34:50 --> ErrorException: Undefined property: CodeIgniter\HTTP\IncomingRequest::$user_id
+[Method: GET, Route: api/investments/list]
+in APPPATH\Controllers\Users\InvestmentController.php on line 11.
+ 1 APPPATH\Controllers\Users\InvestmentController.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$user_id', 'D:\\investissement\\Projet Invest\\backend\\app\\Controllers\\Users\\InvestmentController.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users\InvestmentController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users\InvestmentController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+CRITICAL - 2025-08-03 15:36:36 --> ErrorException: Undefined property: CodeIgniter\HTTP\IncomingRequest::$user_id
+[Method: GET, Route: api/investments/list]
+in APPPATH\Controllers\Users\InvestmentController.php on line 11.
+ 1 APPPATH\Controllers\Users\InvestmentController.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$user_id', 'D:\\investissement\\Projet Invest\\backend\\app\\Controllers\\Users\\InvestmentController.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users\InvestmentController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users\InvestmentController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-08-03 15:36:36 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$user_id is deprecated in APPPATH\Filters\JwtAuth.php on line 36.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/wallets/show', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-08-03 15:36:36 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$decoded_token is deprecated in APPPATH\Filters\JwtAuth.php on line 37.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/wallets/show', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+CRITICAL - 2025-08-03 15:36:39 --> ErrorException: Undefined property: CodeIgniter\HTTP\IncomingRequest::$user_id
+[Method: GET, Route: api/investments/list]
+in APPPATH\Controllers\Users\InvestmentController.php on line 11.
+ 1 APPPATH\Controllers\Users\InvestmentController.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$user_id', 'D:\\investissement\\Projet Invest\\backend\\app\\Controllers\\Users\\InvestmentController.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users\InvestmentController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users\InvestmentController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+CRITICAL - 2025-08-03 15:38:55 --> ErrorException: Undefined property: CodeIgniter\HTTP\IncomingRequest::$user_id
+[Method: GET, Route: api/investments/list]
+in APPPATH\Controllers\Users\InvestmentController.php on line 11.
+ 1 APPPATH\Controllers\Users\InvestmentController.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$user_id', 'D:\\investissement\\Projet Invest\\backend\\app\\Controllers\\Users\\InvestmentController.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users\InvestmentController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users\InvestmentController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-08-03 15:38:55 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$user_id is deprecated in APPPATH\Filters\JwtAuth.php on line 36.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/wallets/show', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-08-03 15:38:55 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$decoded_token is deprecated in APPPATH\Filters\JwtAuth.php on line 37.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/wallets/show', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+CRITICAL - 2025-08-03 15:40:40 --> ErrorException: Undefined property: CodeIgniter\HTTP\IncomingRequest::$user_id
+[Method: GET, Route: api/investments/list]
+in APPPATH\Controllers\Users\InvestmentController.php on line 11.
+ 1 APPPATH\Controllers\Users\InvestmentController.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$user_id', 'D:\\investissement\\Projet Invest\\backend\\app\\Controllers\\Users\\InvestmentController.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users\InvestmentController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users\InvestmentController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-08-03 15:40:40 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$user_id is deprecated in APPPATH\Filters\JwtAuth.php on line 36.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/wallets/show', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-08-03 15:40:40 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$decoded_token is deprecated in APPPATH\Filters\JwtAuth.php on line 37.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/wallets/show', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+DEBUG - 2025-08-03 15:42:35 --> Données reçues : Array
+(
+    [first_name] => A
+    [last_name] => X
+    [adresse] => test2@gmail.com
+    [contact] => 0
+    [product_id] => 4
+)
+
+DEBUG - 2025-08-03 15:43:24 --> Données reçues : Array
+(
+    [first_name] => Andy
+    [last_name] => Andy
+    [adresse] => Andrianarimalala3@gmail.col
+    [contact] => 00000
+    [product_id] => 5
+)
+
+DEBUG - 2025-08-03 15:48:40 --> Données reçues : Array
+(
+    [first_name] => Test1
+    [last_name] => Test1
+    [adresse] => test1@gmail.com
+    [contact] => 123356
+    [product_id] => 5
+)
+
+CRITICAL - 2025-08-03 15:49:13 --> ErrorException: Undefined property: CodeIgniter\HTTP\IncomingRequest::$user_id
+[Method: GET, Route: api/investments/list]
+in APPPATH\Controllers\Users\InvestmentController.php on line 11.
+ 1 APPPATH\Controllers\Users\InvestmentController.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$user_id', 'D:\\investissement\\Projet Invest\\backend\\app\\Controllers\\Users\\InvestmentController.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users\InvestmentController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users\InvestmentController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+CRITICAL - 2025-08-03 15:54:04 --> ErrorException: Undefined property: CodeIgniter\HTTP\IncomingRequest::$user_id
+[Method: GET, Route: api/investments/list]
+in APPPATH\Controllers\Users\InvestmentController.php on line 11.
+ 1 APPPATH\Controllers\Users\InvestmentController.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$user_id', 'D:\\investissement\\Projet Invest\\backend\\app\\Controllers\\Users\\InvestmentController.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users\InvestmentController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users\InvestmentController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+CRITICAL - 2025-08-03 15:54:12 --> ErrorException: Undefined property: CodeIgniter\HTTP\IncomingRequest::$user_id
+[Method: GET, Route: api/investments/list]
+in APPPATH\Controllers\Users\InvestmentController.php on line 11.
+ 1 APPPATH\Controllers\Users\InvestmentController.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$user_id', 'D:\\investissement\\Projet Invest\\backend\\app\\Controllers\\Users\\InvestmentController.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users\InvestmentController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users\InvestmentController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+CRITICAL - 2025-08-03 15:54:13 --> ErrorException: Undefined property: CodeIgniter\HTTP\IncomingRequest::$user_id
+[Method: GET, Route: api/investments/list]
+in APPPATH\Controllers\Users\InvestmentController.php on line 11.
+ 1 APPPATH\Controllers\Users\InvestmentController.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$user_id', 'D:\\investissement\\Projet Invest\\backend\\app\\Controllers\\Users\\InvestmentController.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users\InvestmentController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users\InvestmentController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+CRITICAL - 2025-08-03 15:54:17 --> ErrorException: Undefined property: CodeIgniter\HTTP\IncomingRequest::$user_id
+[Method: GET, Route: api/investments/list]
+in APPPATH\Controllers\Users\InvestmentController.php on line 11.
+ 1 APPPATH\Controllers\Users\InvestmentController.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$user_id', 'D:\\investissement\\Projet Invest\\backend\\app\\Controllers\\Users\\InvestmentController.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users\InvestmentController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users\InvestmentController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+CRITICAL - 2025-08-03 15:55:13 --> ErrorException: Undefined property: CodeIgniter\HTTP\IncomingRequest::$user_id
+[Method: GET, Route: api/investments/list]
+in APPPATH\Controllers\Users\InvestmentController.php on line 11.
+ 1 APPPATH\Controllers\Users\InvestmentController.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$user_id', 'D:\\investissement\\Projet Invest\\backend\\app\\Controllers\\Users\\InvestmentController.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users\InvestmentController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users\InvestmentController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-08-03 16:19:51 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$user_id is deprecated in APPPATH\Filters\JwtAuth.php on line 36.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/wallets/show', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-08-03 16:19:51 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$decoded_token is deprecated in APPPATH\Filters\JwtAuth.php on line 37.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/wallets/show', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+CRITICAL - 2025-08-03 16:19:51 --> ErrorException: Undefined property: CodeIgniter\HTTP\IncomingRequest::$user_id
+[Method: GET, Route: api/investments/list]
+in APPPATH\Controllers\Users\InvestmentController.php on line 11.
+ 1 APPPATH\Controllers\Users\InvestmentController.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$user_id', 'D:\\investissement\\Projet Invest\\backend\\app\\Controllers\\Users\\InvestmentController.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users\InvestmentController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users\InvestmentController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+CRITICAL - 2025-08-03 16:20:05 --> ErrorException: Undefined property: CodeIgniter\HTTP\IncomingRequest::$user_id
+[Method: GET, Route: api/investments/list]
+in APPPATH\Controllers\Users\InvestmentController.php on line 11.
+ 1 APPPATH\Controllers\Users\InvestmentController.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$user_id', 'D:\\investissement\\Projet Invest\\backend\\app\\Controllers\\Users\\InvestmentController.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users\InvestmentController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users\InvestmentController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-08-03 16:22:06 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$user_id is deprecated in APPPATH\Filters\JwtAuth.php on line 36.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/wallets/show', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-08-03 16:22:06 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$decoded_token is deprecated in APPPATH\Filters\JwtAuth.php on line 37.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/wallets/show', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+CRITICAL - 2025-08-03 16:22:06 --> ErrorException: Undefined property: CodeIgniter\HTTP\IncomingRequest::$user_id
+[Method: GET, Route: api/investments/list]
+in APPPATH\Controllers\Users\InvestmentController.php on line 11.
+ 1 APPPATH\Controllers\Users\InvestmentController.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$user_id', 'D:\\investissement\\Projet Invest\\backend\\app\\Controllers\\Users\\InvestmentController.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users\InvestmentController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users\InvestmentController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+CRITICAL - 2025-08-03 16:22:10 --> ErrorException: Undefined property: CodeIgniter\HTTP\IncomingRequest::$user_id
+[Method: GET, Route: api/investments/list]
+in APPPATH\Controllers\Users\InvestmentController.php on line 11.
+ 1 APPPATH\Controllers\Users\InvestmentController.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$user_id', 'D:\\investissement\\Projet Invest\\backend\\app\\Controllers\\Users\\InvestmentController.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users\InvestmentController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users\InvestmentController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+DEBUG - 2025-08-03 16:27:25 --> Données reçues : Array
+(
+    [first_name] => Tata
+    [last_name] => Tatami
+    [adresse] => Toyo@tata.com
+    [contact] => 122456
+    [product_id] => 4
+)
+
+WARNING - 2025-08-03 16:43:06 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$user_id is deprecated in APPPATH\Filters\JwtAuth.php on line 36.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/users/edit/13', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-08-03 16:43:06 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$decoded_token is deprecated in APPPATH\Filters\JwtAuth.php on line 37.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/users/edit/13', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+CRITICAL - 2025-08-03 16:43:34 --> ErrorException: Undefined property: CodeIgniter\HTTP\IncomingRequest::$user_id
+[Method: GET, Route: api/investments/list]
+in APPPATH\Controllers\Users\InvestmentController.php on line 11.
+ 1 APPPATH\Controllers\Users\InvestmentController.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$user_id', 'D:\\investissement\\Projet Invest\\backend\\app\\Controllers\\Users\\InvestmentController.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users\InvestmentController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users\InvestmentController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-08-03 16:43:34 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$user_id is deprecated in APPPATH\Filters\JwtAuth.php on line 36.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/wallets/show', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-08-03 16:43:34 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$decoded_token is deprecated in APPPATH\Filters\JwtAuth.php on line 37.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/wallets/show', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-08-03 16:43:54 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$user_id is deprecated in APPPATH\Filters\JwtAuth.php on line 36.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/users/edit/9', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-08-03 16:43:54 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$decoded_token is deprecated in APPPATH\Filters\JwtAuth.php on line 37.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/users/edit/9', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')

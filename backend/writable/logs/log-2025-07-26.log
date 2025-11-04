@@ -1,0 +1,184 @@
+CRITICAL - 2025-07-26 15:02:00 --> Error: Class "Firebase\JWT\JWT" not found
+[Method: POST, Route: api/users/login]
+in APPPATH\Controllers\Users\AuthController.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users\AuthController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+CRITICAL - 2025-07-26 15:04:19 --> ErrorException: Undefined property: CodeIgniter\HTTP\IncomingRequest::$user_id
+[Method: GET, Route: api/investments/list]
+in APPPATH\Controllers\Users\InvestmentController.php on line 11.
+ 1 APPPATH\Controllers\Users\InvestmentController.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$user_id', 'D:\\investissement\\Projet Invest\\backend\\app\\Controllers\\Users\\InvestmentController.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users\InvestmentController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users\InvestmentController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-07-26 15:04:19 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$user_id is deprecated in APPPATH\Filters\JwtAuth.php on line 27.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/wallets/show', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+CRITICAL - 2025-07-26 15:26:59 --> ErrorException: Undefined property: CodeIgniter\HTTP\IncomingRequest::$user_id
+[Method: GET, Route: api/investments/list]
+in APPPATH\Controllers\Users\InvestmentController.php on line 11.
+ 1 APPPATH\Controllers\Users\InvestmentController.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$user_id', 'D:\\investissement\\Projet Invest\\backend\\app\\Controllers\\Users\\InvestmentController.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users\InvestmentController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users\InvestmentController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+WARNING - 2025-07-26 15:26:59 --> [DEPRECATED] Creation of dynamic property CodeIgniter\HTTP\IncomingRequest::$user_id is deprecated in APPPATH\Filters\JwtAuth.php on line 27.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/wallets/show', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+CRITICAL - 2025-07-26 15:27:10 --> ErrorException: include(D:\investissement\Projet Invest\backend\vendor\composer/../../app/Models/User.php): Failed to open stream: No such file or directory
+[Method: GET, Route: edit/10]
+in VENDORPATH\composer\ClassLoader.php on line 576.
+ 1 VENDORPATH\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(D:\\investissement\\Projet Invest\\backend\\vendor\\composer/../../app/Models/User.php): Failed to open stream: No such file or directory', 'D:\\investissement\\Projet Invest\\backend\\vendor\\composer\\ClassLoader.php', 576)
+ 2 VENDORPATH\composer\ClassLoader.php(576): include()
+ 3 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\investissement\\Projet Invest\\backend\\vendor\\composer/../../app/Models/User.php')
+ 4 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\User')
+ 5 SYSTEMPATH\RESTful\BaseResource.php(69): class_exists('App\\Models\\User')
+ 6 SYSTEMPATH\RESTful\BaseResource.php(51): CodeIgniter\RESTful\BaseResource->setModel('App\\Models\\User')
+ 7 SYSTEMPATH\CodeIgniter.php(904): CodeIgniter\RESTful\BaseResource->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 8 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+CRITICAL - 2025-07-26 15:34:51 --> Error: Class "App\Controllers\AdminModel" not found
+[Method: POST, Route: api/users/login]
+in APPPATH\Controllers\AuthController.php on line 85.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+CRITICAL - 2025-07-26 15:45:31 --> ErrorException: include(D:\investissement\Projet Invest\backend\vendor\composer/../../app/Models/User.php): Failed to open stream: No such file or directory
+[Method: POST, Route: api/users/login]
+in VENDORPATH\composer\ClassLoader.php on line 576.
+ 1 VENDORPATH\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(D:\\investissement\\Projet Invest\\backend\\vendor\\composer/../../app/Models/User.php): Failed to open stream: No such file or directory', 'D:\\investissement\\Projet Invest\\backend\\vendor\\composer\\ClassLoader.php', 576)
+ 2 VENDORPATH\composer\ClassLoader.php(576): include()
+ 3 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\investissement\\Projet Invest\\backend\\vendor\\composer/../../app/Models/User.php')
+ 4 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\User')
+ 5 SYSTEMPATH\RESTful\BaseResource.php(69): class_exists('App\\Models\\User')
+ 6 SYSTEMPATH\RESTful\BaseResource.php(51): CodeIgniter\RESTful\BaseResource->setModel('App\\Models\\User')
+ 7 SYSTEMPATH\CodeIgniter.php(904): CodeIgniter\RESTful\BaseResource->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 8 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+CRITICAL - 2025-07-26 15:47:38 --> ErrorException: include(D:\investissement\Projet Invest\backend\vendor\composer/../../app/Models/User.php): Failed to open stream: No such file or directory
+[Method: POST, Route: api/users/login]
+in VENDORPATH\composer\ClassLoader.php on line 576.
+ 1 VENDORPATH\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(D:\\investissement\\Projet Invest\\backend\\vendor\\composer/../../app/Models/User.php): Failed to open stream: No such file or directory', 'D:\\investissement\\Projet Invest\\backend\\vendor\\composer\\ClassLoader.php', 576)
+ 2 VENDORPATH\composer\ClassLoader.php(576): include()
+ 3 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\investissement\\Projet Invest\\backend\\vendor\\composer/../../app/Models/User.php')
+ 4 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\User')
+ 5 SYSTEMPATH\RESTful\BaseResource.php(69): class_exists('App\\Models\\User')
+ 6 SYSTEMPATH\RESTful\BaseResource.php(51): CodeIgniter\RESTful\BaseResource->setModel('App\\Models\\User')
+ 7 SYSTEMPATH\CodeIgniter.php(904): CodeIgniter\RESTful\BaseResource->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 8 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+CRITICAL - 2025-07-26 15:47:54 --> ErrorException: include(D:\investissement\Projet Invest\backend\vendor\composer/../../app/Models/User.php): Failed to open stream: No such file or directory
+[Method: POST, Route: api/users/login]
+in VENDORPATH\composer\ClassLoader.php on line 576.
+ 1 VENDORPATH\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(D:\\investissement\\Projet Invest\\backend\\vendor\\composer/../../app/Models/User.php): Failed to open stream: No such file or directory', 'D:\\investissement\\Projet Invest\\backend\\vendor\\composer\\ClassLoader.php', 576)
+ 2 VENDORPATH\composer\ClassLoader.php(576): include()
+ 3 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\investissement\\Projet Invest\\backend\\vendor\\composer/../../app/Models/User.php')
+ 4 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\User')
+ 5 SYSTEMPATH\RESTful\BaseResource.php(69): class_exists('App\\Models\\User')
+ 6 SYSTEMPATH\RESTful\BaseResource.php(51): CodeIgniter\RESTful\BaseResource->setModel('App\\Models\\User')
+ 7 SYSTEMPATH\CodeIgniter.php(904): CodeIgniter\RESTful\BaseResource->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 8 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+CRITICAL - 2025-07-26 15:48:56 --> ErrorException: include(D:\investissement\Projet Invest\backend\vendor\composer/../../app/Models/User.php): Failed to open stream: No such file or directory
+[Method: POST, Route: api/users/login]
+in VENDORPATH\composer\ClassLoader.php on line 576.
+ 1 VENDORPATH\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(D:\\investissement\\Projet Invest\\backend\\vendor\\composer/../../app/Models/User.php): Failed to open stream: No such file or directory', 'D:\\investissement\\Projet Invest\\backend\\vendor\\composer\\ClassLoader.php', 576)
+ 2 VENDORPATH\composer\ClassLoader.php(576): include()
+ 3 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\investissement\\Projet Invest\\backend\\vendor\\composer/../../app/Models/User.php')
+ 4 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\User')
+ 5 SYSTEMPATH\RESTful\BaseResource.php(69): class_exists('App\\Models\\User')
+ 6 SYSTEMPATH\RESTful\BaseResource.php(51): CodeIgniter\RESTful\BaseResource->setModel('App\\Models\\User')
+ 7 SYSTEMPATH\CodeIgniter.php(904): CodeIgniter\RESTful\BaseResource->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 8 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+DEBUG - 2025-07-26 15:52:33 --> Email reçu: 
+DEBUG - 2025-07-26 15:52:52 --> Email reçu: rambo@gmail.com
+DEBUG - 2025-07-26 15:52:58 --> Email reçu: rambo@gmail.com
+DEBUG - 2025-07-26 15:53:05 --> Email reçu: rambo@gmail.com
+DEBUG - 2025-07-26 15:53:09 --> Email reçu: rambo@gmail.com
+CRITICAL - 2025-07-26 15:53:11 --> ErrorException: Undefined property: CodeIgniter\HTTP\IncomingRequest::$user_id
+[Method: GET, Route: api/investments/list]
+in APPPATH\Controllers\InvestmentController.php on line 21.
+ 1 APPPATH\Controllers\InvestmentController.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$user_id', 'D:\\investissement\\Projet Invest\\backend\\app\\Controllers\\InvestmentController.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\InvestmentController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvestmentController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+DEBUG - 2025-07-26 15:54:02 --> Email reçu: rambo@gmail.com
+CRITICAL - 2025-07-26 15:54:03 --> ErrorException: Undefined property: CodeIgniter\HTTP\IncomingRequest::$user_id
+[Method: GET, Route: api/investments/list]
+in APPPATH\Controllers\InvestmentController.php on line 21.
+ 1 APPPATH\Controllers\InvestmentController.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$user_id', 'D:\\investissement\\Projet Invest\\backend\\app\\Controllers\\InvestmentController.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\InvestmentController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvestmentController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+DEBUG - 2025-07-26 15:54:23 --> Email reçu: rambo@gmail.com
+CRITICAL - 2025-07-26 15:54:24 --> ErrorException: Undefined property: CodeIgniter\HTTP\IncomingRequest::$user_id
+[Method: GET, Route: api/investments/list]
+in APPPATH\Controllers\InvestmentController.php on line 21.
+ 1 APPPATH\Controllers\InvestmentController.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$user_id', 'D:\\investissement\\Projet Invest\\backend\\app\\Controllers\\InvestmentController.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\InvestmentController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvestmentController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+DEBUG - 2025-07-26 16:03:11 --> Email reçu: rambo@gmail.com
+DEBUG - 2025-07-26 16:06:56 --> Email reçu: rambo@gmail.com
+DEBUG - 2025-07-26 16:06:59 --> Email reçu: rambo@gmail.com
+DEBUG - 2025-07-26 16:11:50 --> Email reçu: rambo@gmail.com

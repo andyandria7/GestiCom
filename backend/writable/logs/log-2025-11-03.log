@@ -1,0 +1,70 @@
+CRITICAL - 2025-11-03 06:14:51 --> Error: Class "App\Controllers\BaseController" not found
+[Method: GET, Route: api/stats/dashboard]
+in APPPATH\Controllers\Stat\StatController.php on line 7.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include()
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\investissement\\Projet Invest\\backend\\vendor\\composer/../../app\\Controllers\\Stat\\StatController.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Stat\\StatController')
+ 4 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Stat\\StatController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+CRITICAL - 2025-11-03 06:14:52 --> Error: Class "App\Controllers\BaseController" not found
+[Method: GET, Route: api/stats/dashboard]
+in APPPATH\Controllers\Stat\StatController.php on line 7.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include()
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\investissement\\Projet Invest\\backend\\vendor\\composer/../../app\\Controllers\\Stat\\StatController.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Stat\\StatController')
+ 4 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Stat\\StatController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+CRITICAL - 2025-11-03 07:38:36 --> ErrorException: Undefined property: stdClass::$totalClients
+[Method: GET, Route: api/stats/dashboard]
+in APPPATH\Controllers\Stat\StatController.php on line 87.
+ 1 APPPATH\Controllers\Stat\StatController.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$totalClients', 'D:\\investissement\\Projet Invest\\backend\\app\\Controllers\\Stat\\StatController.php', 87)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Stat\StatController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stat\StatController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+CRITICAL - 2025-11-03 07:38:36 --> ErrorException: Undefined property: stdClass::$totalClients
+[Method: GET, Route: api/stats/dashboard]
+in APPPATH\Controllers\Stat\StatController.php on line 87.
+ 1 APPPATH\Controllers\Stat\StatController.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$totalClients', 'D:\\investissement\\Projet Invest\\backend\\app\\Controllers\\Stat\\StatController.php', 87)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Stat\StatController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stat\StatController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+CRITICAL - 2025-11-03 07:39:09 --> ErrorException: Undefined property: stdClass::$totalClients
+[Method: GET, Route: api/stats/dashboard]
+in APPPATH\Controllers\Stat\StatController.php on line 87.
+ 1 APPPATH\Controllers\Stat\StatController.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$totalClients', 'D:\\investissement\\Projet Invest\\backend\\app\\Controllers\\Stat\\StatController.php', 87)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Stat\StatController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stat\StatController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+CRITICAL - 2025-11-03 07:39:09 --> ErrorException: Undefined property: stdClass::$totalClients
+[Method: GET, Route: api/stats/dashboard]
+in APPPATH\Controllers\Stat\StatController.php on line 87.
+ 1 APPPATH\Controllers\Stat\StatController.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$totalClients', 'D:\\investissement\\Projet Invest\\backend\\app\\Controllers\\Stat\\StatController.php', 87)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Stat\StatController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stat\StatController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')

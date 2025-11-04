@@ -1,0 +1,160 @@
+CRITICAL - 2025-08-28 06:18:01 --> ErrorException: include(D:\investissement\Projet Invest\backend\vendor\composer/../../app/Controllers/PacksController.php): Failed to open stream: No such file or directory
+[Method: GET, Route: packs]
+in VENDORPATH\composer\ClassLoader.php on line 576.
+ 1 VENDORPATH\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(D:\\investissement\\Projet Invest\\backend\\vendor\\composer/../../app/Controllers/PacksController.php): Failed to open stream: No such file or directory', 'D:\\investissement\\Projet Invest\\backend\\vendor\\composer\\ClassLoader.php', 576)
+ 2 VENDORPATH\composer\ClassLoader.php(576): include()
+ 3 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\investissement\\Projet Invest\\backend\\vendor\\composer/../../app/Controllers/PacksController.php')
+ 4 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\PacksController')
+ 5 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\PacksController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+CRITICAL - 2025-08-28 06:18:02 --> ErrorException: include(D:\investissement\Projet Invest\backend\vendor\composer/../../app/Controllers/PacksController.php): Failed to open stream: No such file or directory
+[Method: GET, Route: packs]
+in VENDORPATH\composer\ClassLoader.php on line 576.
+ 1 VENDORPATH\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(D:\\investissement\\Projet Invest\\backend\\vendor\\composer/../../app/Controllers/PacksController.php): Failed to open stream: No such file or directory', 'D:\\investissement\\Projet Invest\\backend\\vendor\\composer\\ClassLoader.php', 576)
+ 2 VENDORPATH\composer\ClassLoader.php(576): include()
+ 3 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\investissement\\Projet Invest\\backend\\vendor\\composer/../../app/Controllers/PacksController.php')
+ 4 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\PacksController')
+ 5 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\PacksController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+CRITICAL - 2025-08-28 06:28:11 --> ErrorException: include(D:\investissement\Projet Invest\backend\vendor\composer/../../app/Controllers/PacksController.php): Failed to open stream: No such file or directory
+[Method: GET, Route: packs]
+in VENDORPATH\composer\ClassLoader.php on line 576.
+ 1 VENDORPATH\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(D:\\investissement\\Projet Invest\\backend\\vendor\\composer/../../app/Controllers/PacksController.php): Failed to open stream: No such file or directory', 'D:\\investissement\\Projet Invest\\backend\\vendor\\composer\\ClassLoader.php', 576)
+ 2 VENDORPATH\composer\ClassLoader.php(576): include()
+ 3 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\investissement\\Projet Invest\\backend\\vendor\\composer/../../app/Controllers/PacksController.php')
+ 4 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\PacksController')
+ 5 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\PacksController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+CRITICAL - 2025-08-28 06:28:11 --> ErrorException: include(D:\investissement\Projet Invest\backend\vendor\composer/../../app/Controllers/PacksController.php): Failed to open stream: No such file or directory
+[Method: GET, Route: packs]
+in VENDORPATH\composer\ClassLoader.php on line 576.
+ 1 VENDORPATH\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(D:\\investissement\\Projet Invest\\backend\\vendor\\composer/../../app/Controllers/PacksController.php): Failed to open stream: No such file or directory', 'D:\\investissement\\Projet Invest\\backend\\vendor\\composer\\ClassLoader.php', 576)
+ 2 VENDORPATH\composer\ClassLoader.php(576): include()
+ 3 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\investissement\\Projet Invest\\backend\\vendor\\composer/../../app/Controllers/PacksController.php')
+ 4 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\PacksController')
+ 5 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\PacksController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+ERROR - 2025-08-28 06:49:42 --> mysqli_sql_exception: Nom du champ 'reference' déjà utilisé in D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('ALTER TABLE `tr...', 0)
+#1 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('ALTER TABLE `tr...')
+#2 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('ALTER TABLE `tr...')
+#3 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\Database\Forge.php(772): CodeIgniter\Database\BaseConnection->query('ALTER TABLE `tr...')
+#4 D:\investissement\Projet Invest\backend\app\Database\Migrations\2025-08-21-084713_AddReferenceFields.php(11): CodeIgniter\Database\Forge->addColumn('transactions', Array)
+#5 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(876): App\Database\Migrations\AddReferenceFields->up()
+#6 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 D:\investissement\Projet Invest\backend\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-08-28 06:57:45 --> mysqli_sql_exception: Nom du champ 'reference' déjà utilisé in D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('ALTER TABLE `tr...', 0)
+#1 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('ALTER TABLE `tr...')
+#2 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('ALTER TABLE `tr...')
+#3 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\Database\Forge.php(772): CodeIgniter\Database\BaseConnection->query('ALTER TABLE `tr...')
+#4 D:\investissement\Projet Invest\backend\app\Database\Migrations\2025-08-21-084713_AddReferenceFields.php(11): CodeIgniter\Database\Forge->addColumn('transactions', Array)
+#5 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(876): App\Database\Migrations\AddReferenceFields->up()
+#6 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 D:\investissement\Projet Invest\backend\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-08-28 07:09:11 --> mysqli_sql_exception: Nom du champ 'reference' déjà utilisé in D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('ALTER TABLE `pa...', 0)
+#1 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('ALTER TABLE `pa...')
+#2 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('ALTER TABLE `pa...')
+#3 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\Database\Forge.php(772): CodeIgniter\Database\BaseConnection->query('ALTER TABLE `pa...')
+#4 D:\investissement\Projet Invest\backend\app\Database\Migrations\2025-08-21-084713_AddReferenceFields.php(35): CodeIgniter\Database\Forge->addColumn('packs', Array)
+#5 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(876): App\Database\Migrations\AddReferenceFields->up()
+#6 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 D:\investissement\Projet Invest\backend\vendor\codeigniter4\framework\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 D:\investissement\Projet Invest\backend\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-08-28 08:15:26 --> ErrorException: include(D:\investissement\Projet Invest\backend\vendor\composer/../../app/Controllers/PacksController.php): Failed to open stream: No such file or directory
+[Method: GET, Route: packs]
+in VENDORPATH\composer\ClassLoader.php on line 576.
+ 1 VENDORPATH\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(D:\\investissement\\Projet Invest\\backend\\vendor\\composer/../../app/Controllers/PacksController.php): Failed to open stream: No such file or directory', 'D:\\investissement\\Projet Invest\\backend\\vendor\\composer\\ClassLoader.php', 576)
+ 2 VENDORPATH\composer\ClassLoader.php(576): include()
+ 3 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\investissement\\Projet Invest\\backend\\vendor\\composer/../../app/Controllers/PacksController.php')
+ 4 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\PacksController')
+ 5 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\PacksController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+CRITICAL - 2025-08-28 08:15:26 --> ErrorException: include(D:\investissement\Projet Invest\backend\vendor\composer/../../app/Controllers/PacksController.php): Failed to open stream: No such file or directory
+[Method: GET, Route: packs]
+in VENDORPATH\composer\ClassLoader.php on line 576.
+ 1 VENDORPATH\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(D:\\investissement\\Projet Invest\\backend\\vendor\\composer/../../app/Controllers/PacksController.php): Failed to open stream: No such file or directory', 'D:\\investissement\\Projet Invest\\backend\\vendor\\composer\\ClassLoader.php', 576)
+ 2 VENDORPATH\composer\ClassLoader.php(576): include()
+ 3 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\investissement\\Projet Invest\\backend\\vendor\\composer/../../app/Controllers/PacksController.php')
+ 4 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\PacksController')
+ 5 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\PacksController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+CRITICAL - 2025-08-28 16:15:10 --> ErrorException: include(D:\investissement\Projet Invest\backend\vendor\composer/../../app/Controllers/PacksController.php): Failed to open stream: No such file or directory
+[Method: GET, Route: packs]
+in VENDORPATH\composer\ClassLoader.php on line 576.
+ 1 VENDORPATH\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(D:\\investissement\\Projet Invest\\backend\\vendor\\composer/../../app/Controllers/PacksController.php): Failed to open stream: No such file or directory', 'D:\\investissement\\Projet Invest\\backend\\vendor\\composer\\ClassLoader.php', 576)
+ 2 VENDORPATH\composer\ClassLoader.php(576): include()
+ 3 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\investissement\\Projet Invest\\backend\\vendor\\composer/../../app/Controllers/PacksController.php')
+ 4 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\PacksController')
+ 5 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\PacksController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')
+CRITICAL - 2025-08-28 16:15:11 --> ErrorException: include(D:\investissement\Projet Invest\backend\vendor\composer/../../app/Controllers/PacksController.php): Failed to open stream: No such file or directory
+[Method: GET, Route: packs]
+in VENDORPATH\composer\ClassLoader.php on line 576.
+ 1 VENDORPATH\composer\ClassLoader.php(576): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(D:\\investissement\\Projet Invest\\backend\\vendor\\composer/../../app/Controllers/PacksController.php): Failed to open stream: No such file or directory', 'D:\\investissement\\Projet Invest\\backend\\vendor\\composer\\ClassLoader.php', 576)
+ 2 VENDORPATH\composer\ClassLoader.php(576): include()
+ 3 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\investissement\\Projet Invest\\backend\\vendor\\composer/../../app/Controllers/PacksController.php')
+ 4 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\PacksController')
+ 5 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\PacksController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\investissement\\Projet Invest\\backend\\public\\index.php')

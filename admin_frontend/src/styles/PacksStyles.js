@@ -1,0 +1,295 @@
+const styles = {
+    container: {
+      minHeight: "100vh",
+      background: "linear-gradient(135deg, #f8fafc 0%, #ffffff 50%, #f1f5f9 100%)",
+      padding: "24px",
+      fontFamily:
+        '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif',
+    },
+    header: {
+      marginBottom: "32px",
+      animation: "fadeIn 0.8s ease-out",
+    },
+    title: {
+      fontSize: "2.5rem",
+      fontWeight: "700",
+      background: "linear-gradient(135deg, #2563eb 0%, #7c3aed 100%)",
+      WebkitBackgroundClip: "text",
+      backgroundClip: "text",
+      WebkitTextFillColor: "transparent",
+      marginBottom: "8px",
+    },
+    subtitle: {
+      color: "#6b7280",
+      fontSize: "1.125rem",
+    },
+    alertSuccess: {
+      marginBottom: "24px",
+      padding: "16px",
+      background: "linear-gradient(135deg, #f0fdf4 0%, #ecfdf5 100%)",
+      border: "1px solid #d1fae5",
+      borderRadius: "12px",
+      boxShadow: "0 4px 6px -1px rgba(0, 0, 0, 0.1)",
+      animation: "slideIn 0.5s ease-out",
+    },
+    alertError: {
+      marginBottom: "24px",
+      padding: "16px",
+      background: "linear-gradient(135deg, #fef2f2 0%, #fdf2f8 100%)",
+      border: "1px solid #fecaca",
+      borderRadius: "12px",
+      boxShadow: "0 4px 6px -1px rgba(0, 0, 0, 0.1)",
+      animation: "slideIn 0.5s ease-out",
+    },
+    alertContent: {
+      display: "flex",
+      alignItems: "center",
+    },
+    alertDot: {
+      width: "8px",
+      height: "8px",
+      borderRadius: "50%",
+      marginRight: "12px",
+      animation: "pulse 2s infinite",
+    },
+    alertDotSuccess: {
+      backgroundColor: "#10b981",
+    },
+    alertDotError: {
+      backgroundColor: "#ef4444",
+    },
+    formContainer: {
+      background: "#ffffff",
+      borderRadius: "16px",
+      boxShadow:
+        "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)",
+      border: "1px solid #f3f4f6",
+      padding: "32px",
+      marginBottom: "32px",
+    },
+    formTitle: {
+      fontSize: "1.5rem",
+      fontWeight: "600",
+      color: "#1f2937",
+      marginBottom: "24px",
+      display: "flex",
+      alignItems: "center",
+    },
+    formTitleBar: {
+      width: "4px",
+      height: "24px",
+      background: "linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%)",
+      borderRadius: "2px",
+      marginRight: "12px",
+    },
+    formGrid: {
+      display: "grid",
+      gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
+      gap: "20px",
+      marginBottom: "20px",
+    },
+    inputGroup: {
+      display: "flex",
+      flexDirection: "column",
+    },
+    label: {
+      fontSize: "0.875rem",
+      fontWeight: "500",
+      color: "#374151",
+      marginBottom: "20px",
+    },
+    input: {
+      width: "100%",
+      padding: "16px",
+      border: "1px solid #d1d5db",
+      borderRadius: "12px",
+      fontSize: "1rem",
+      background: "#f9fafb",
+      transition: "all 0.2s ease-in-out",
+      outline: "none",
+    },
+    inputFocus: {
+      borderColor: "#3b82f6",
+      background: "#ffffff",
+      boxShadow: "0 0 0 3px rgba(59, 130, 246, 0.1)",
+    },
+    select: {
+      width: "100%",
+      padding: "16px",
+      border: "1px solid #d1d5db",
+      borderRadius: "12px",
+      fontSize: "1rem",
+      background: "#f9fafb",
+      transition: "all 0.2s ease-in-out",
+      outline: "none",
+      cursor: "pointer",
+    },
+    button: {
+      padding: "16px 32px",
+      background: "linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%)",
+      color: "#ffffff",
+      border: "none",
+      borderRadius: "12px",
+      fontSize: "1rem",
+      fontWeight: "600",
+      cursor: "pointer",
+      transition: "all 0.2s ease-in-out",
+      boxShadow: "0 10px 15px -3px rgba(0, 0, 0, 0.1)",
+      outline: "none",
+    },
+    buttonHover: {
+      transform: "translateY(-2px)",
+      boxShadow: "0 20px 25px -5px rgba(0, 0, 0, 0.1)",
+    },
+    buttonDisabled: {
+      opacity: "0.5",
+      cursor: "not-allowed",
+      transform: "none",
+    },
+    grid: {
+      display: "grid",
+      gridTemplateColumns: "repeat(auto-fill, minmax(320px, 1fr))",
+      gap: "24px",
+    },
+    card: {
+      background: "#ffffff",
+      borderRadius: "16px",
+      boxShadow: "0 10px 15px -3px rgba(0, 0, 0, 0.1)",
+      border: "1px solid #f3f4f6",
+      padding: "24px",
+      transition: "all 0.3s ease-in-out",
+      cursor: "pointer",
+    },
+    cardHover: {
+      transform: "translateY(-8px)",
+      boxShadow: "0 25px 50px -12px rgba(0, 0, 0, 0.25)",
+    },
+    cardHeader: {
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "space-between",
+      marginBottom: "16px",
+    },
+    cardIcon: {
+      width: "48px",
+      height: "48px",
+      background: "linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%)",
+      borderRadius: "12px",
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
+      fontSize: "1.5rem",
+    },
+    cardId: {
+      fontSize: "0.75rem",
+      color: "#6b7280",
+      fontWeight: "500",
+    },
+    cardTitle: {
+      fontSize: "1.25rem",
+      fontWeight: "700",
+      color: "#1f2937",
+      marginBottom: "16px",
+      transition: "color 0.2s ease-in-out",
+    },
+    cardMetrics: {
+      display: "flex",
+      flexDirection: "column",
+      gap: "16px",
+    },
+    metric: {
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "space-between",
+      padding: "12px",
+      borderRadius: "12px",
+    },
+    metricObjectif: {
+      background: "linear-gradient(135deg, #eff6ff 0%, #e0e7ff 100%)",
+    },
+    metricInvestment: {
+      background: "linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%)",
+    },
+    metricDisponible: {
+      background: "linear-gradient(135deg, #fdf4ff 0%, #f3e8ff 100%)",
+    },
+    metricDate: {
+      background: "linear-gradient(135deg, #fef3c7 0%, #fde68a 100%)",
+    },
+    metricLabel: {
+      display: "flex",
+      alignItems: "center",
+      fontSize: "0.875rem",
+      fontWeight: "500",
+      color: "#374151",
+    },
+    metricDot: {
+      width: "8px",
+      height: "8px",
+      borderRadius: "50%",
+      marginRight: "8px",
+    },
+    metricDotBlue: {
+      backgroundColor: "#3b82f6",
+    },
+    metricDotGreen: {
+      backgroundColor: "#10b981",
+    },
+    metricDotPurple: {
+      backgroundColor: "#8b5cf6",
+    },
+    metricDotYellow: {
+      backgroundColor: "#f59e0b",
+    },
+    metricValue: {
+      fontWeight: "700",
+    },
+    metricValueBlue: {
+      color: "#2563eb",
+    },
+    metricValueGreen: {
+      color: "#059669",
+    },
+    metricValuePurple: {
+      color: "#7c3aed",
+    },
+    metricValueYellow: {
+      color: "#d97706",
+    },
+    emptyState: {
+      textAlign: "center",
+      padding: "64px 16px",
+    },
+    emptyIcon: {
+      width: "96px",
+      height: "96px",
+      background: "#f3f4f6",
+      borderRadius: "50%",
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
+      margin: "0 auto 16px",
+      fontSize: "3rem",
+    },
+    emptyTitle: {
+      fontSize: "1.25rem",
+      fontWeight: "600",
+      color: "#374151",
+      marginBottom: "8px",
+    },
+    emptyDescription: {
+      color: "#6b7280",
+    },
+    spinner: {
+      width: "20px",
+      height: "20px",
+      border: "2px solid #ffffff",
+      borderTop: "2px solid transparent",
+      borderRadius: "50%",
+      animation: "spin 1s linear infinite",
+      marginRight: "8px",
+    },
+  };
+  
+  export default styles;
+  
