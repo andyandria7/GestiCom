@@ -55,11 +55,13 @@ Ce dossier (backend/) contient l'API centrale du projet.
 * Dupliquez le fichier .env.example et renommez-le en .env dans le dossier backend/.
 * Modifiez les lignes suivantes dans .env pour correspondre à votre configuration MySQL et à l'URL de l'API :
 # Configuration de la base de données
+```bash
 database.default.hostname = localhost
 database.default.database = invest2
 database.default.username = root
 database.default.password = 
 database.default.DBDriver = MySQLi
+```
 
 # URL de base de l'API
 app.baseURL = 'http://localhost:8080/'
