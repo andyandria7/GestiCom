@@ -61,7 +61,7 @@ Créez la base de données MySQL :
 
 Dnas votre navigateur ouvrez tapez : http://localhost/phpmyadmin
 
-Créez une base nommée : invest
+Créez une base nommée : invest2
 
 Dans votre projet backend
 Configurez le fichier .env :
@@ -117,8 +117,10 @@ Configurez l’IP du backend comme indiqué ci-dessus.
 
 Démarrez le serveur web :
 
-npm run dev
+npm start
 
+login:andy@gmail.com    
+password:andy123
 
 L’application sera accessible sur :
 👉 http://localhost:5173
